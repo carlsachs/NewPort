@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 //Styling
 import Typist from 'react-typist';
 import Particles from "react-particles-js";
@@ -30,10 +31,20 @@ const Title = styled.div`
 const ButtonWrap = styled.div`
     display: flex;
     justify-content: space-evenly;
+    margin-top:5%;
 `;
 
 const Button = styled.button`
-      
+  width: 350px;
+  height: 150px;
+  border: 1px solid #0C4763;
+  background: none;
+  :hover {
+    box-shadow: 0 4px 8px 0 rgba(74, 197, 255, 0.2), 0 6px 20px 0 rgba(74, 197, 255, 0.19);
+    color: #0C4763;
+    border-radius: 4%;
+    transition: all 0.3s ease;
+  }
 `;
 
 const Home = () => {
