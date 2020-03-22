@@ -16,12 +16,14 @@ const Title = styled.div`
     text-align: center;
     width: 20%;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 10%;
     h1 {
-      color: #5FB2D7;
+      font-size: 3rem;
+      color: #398BB4;
     }
     h2 {
-      color: #5FB2D7;
+      font-size: 1.4rem;
+      color: #398BB4;
     }
 `;
 
