@@ -5,6 +5,8 @@ import Typist from 'react-typist';
 import Particles from "react-particles-js";
 import styled from "styled-components";
 
+//STYLED-COMPONENTS
+
 const HomeDiv=styled.div`
   width: 100%;
   position: absolute;
@@ -47,6 +49,8 @@ const Button = styled.button`
   }
 `;
 
+//PARTICLES JS ANIMATION
+
 const Home = () => {
 
   const particleOpt2 = {"particles":
@@ -54,6 +58,14 @@ const Home = () => {
   "interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},
   "bubble":{"distance":300,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},
   "retina_detect":true};
+
+  //FUNCTIONALITY
+
+  let history = useHistory();
+
+  const toProjects = () => {
+    history.push('/projects')
+  }
 
   return (
     <HomeDiv>
@@ -70,7 +82,7 @@ const Home = () => {
     </Title>
     </Typist>
     <ButtonWrap>
-      <Button>Projects</Button>
+      <Button onClick={toProjects}>Projects</Button>
       <Button>LinkedIn</Button>
       <Button>About Me</Button>
     </ButtonWrap>

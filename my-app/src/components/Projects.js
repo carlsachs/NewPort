@@ -3,6 +3,10 @@ import React from "react";
 //styling
 import styled from "styled-components";
 
+const ProWrap = styled.div`
+    width: 100%;
+`;
+
 const Projects = () => {
     return (
         <ProWrap>
