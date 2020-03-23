@@ -1,5 +1,8 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
+
+//IMPORTING OTHER FILES
+import Nav from "./Nav.js";
 //Styling
 import Typist from 'react-typist';
 import Particles from "react-particles-js";
@@ -73,6 +76,7 @@ const Home = () => {
 
   return (
     <HomeDiv>
+    <Nav />
     <Particles 
     params={ particleOpt2 }
     style={{
