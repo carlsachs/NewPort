@@ -6,11 +6,11 @@ import Fade from "react-reveal";
 
 const AboutMe = () => {
     return (
-        <Main>
+        <div>
         <Fade top>
             <h1>About Me</h1>
             </Fade>
-        </Main>
+        </div>
 
     )
 

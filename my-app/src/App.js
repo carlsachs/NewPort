@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 //IMPORTING
 import Home from "./components/Home.js";
 import Projects from "./components/Projects.js";
+import AboutMe from "./components/AboutMe.js"
 
 //styling
 // import styled from "styled-components";
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/about">
+          <AboutMe />
         </Route>
       </Switch>
     </Router>

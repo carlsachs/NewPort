@@ -67,6 +67,10 @@ const Home = () => {
     history.push('/projects')
   }
 
+  const toAbout = () => {
+    history.push('/about')
+  }
+
   return (
     <HomeDiv>
     <Particles 
@@ -84,7 +88,7 @@ const Home = () => {
     <ButtonWrap>
       <Button onClick={toProjects}>Projects</Button>
       <Button>LinkedIn</Button>
-      <Button>About Me</Button>
+      <Button onClick={toAbout}>About Me</Button>
     </ButtonWrap>
     </HomeDiv>
   );
