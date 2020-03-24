@@ -30,10 +30,10 @@ export default function Nav () {
     return (
         <header>
             <NavWrap>
-                    <StyledLink to="/home">Home</StyledLink>
+                    <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
                     <StyledLink to="/about">About Me</StyledLink>
-                    <StyledLink to="https://www.linkedin.com/in/carl-sachs-198780141/">LinkedIn</StyledLink>
+                    <StyledLink to="https://www.linkedin.com/in/carl-sachs-198780141">LinkedIn</StyledLink>
             </NavWrap>
         </header>
     )
