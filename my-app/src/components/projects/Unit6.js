@@ -74,10 +74,11 @@ import styled from "styled-components";
         h3 {
             margin: 0 auto;
             margin-top: 10%;
-            margin-bottom: 10%;
+            margin-bottom: 14%;
         }
         img {
             height: 150px;
+            margin-top: 10%;
         }
         a {
             margin: 0 auto;
@@ -112,10 +113,12 @@ import styled from "styled-components";
         }
         img {
             height: 150px;
+            margin-top: 10%;
         }
         a {
             margin: 0 auto;
             margin-bottom: 12%;
+            margin-top: 10%;
             text-decoration: none;
             border: 1px solid #0B1654;
             width: 100%;
@@ -153,7 +156,7 @@ import styled from "styled-components";
             margin-bottom: 12%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 30%;
+            width: 60%;
             height: 35px;
             text-align: center;
             padding-top: 2.5%;
