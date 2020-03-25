@@ -3,6 +3,7 @@ import React from "react";
 // Import Pictures
 
 import Flexbox from "./Flexbox.png";
+import Sprint1 from "./Sprint1.png";
 
 // STYLING
 
@@ -33,6 +34,7 @@ const Card = styled.div`
         justify-content: space-between;
         width: 100%;
         color: #303D84;
+        margin-top: 3%;
         h3 {
             text-align: center;
             margin-left: 30%;
@@ -42,10 +44,19 @@ const Card = styled.div`
         }
     `;
 
+    const HighlightTitle = styled.div`
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+        color: #303D84;
+    `;
+
     const High = styled.div`
         width: 100%;
         border: 1px solid blue;
         color: #303D84;
+        display: flex;
+        justify-content: space-between;
         h2 {
             display: flex;
             justify-content: center;
@@ -56,7 +67,9 @@ const Card = styled.div`
         border: 1px solid green;
         width: 40%;
         justify-content: space-evenly;
-        margin-bottom: 5%;
+        margin-bottom: 4%;
+        margin-left: 5%;
+        margin-top: 2%;
         h3 {
             margin: 0 auto;
             margin-top: 10%;
@@ -73,7 +86,7 @@ const Card = styled.div`
             margin-bottom: 10%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 70%;
+            width: 80%;
             height: 35px;
             text-align: center;
             padding-top: 5%;
@@ -84,9 +97,46 @@ const Card = styled.div`
         }
     `;
 
+    const Right = styled.div`
+    display: flex;
+    border: 1px solid green;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+    h3 {
+        margin: 0 auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    img {
+        height: 150px;
+    }
+    a {
+        margin: 0 auto;
+        margin-bottom: 12%;
+        text-decoration: none;
+        border: 1px solid #0B1654;
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        padding-top: 5%;
+        border-radius: 5%;
+        :hover {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+    }
+    `;
+
     const Flex = styled.div`
-        display: flex;
-        flex-flow: column nowrap;
+    display: flex;
+    flex-flow: column nowrap;
+    `;
+
+    const Flex1 = styled.div`
+    display: flex;
+    flex-flow: column nowrap;
     `;
 
 const Unit1 = () => {
@@ -101,8 +151,10 @@ const Unit1 = () => {
                     <li>GitFlow</li>
                 </ul>
             </Focus>
-            <High>
+            <HighlightTitle>
                 <h2>Highlight Projects</h2>
+            </HighlightTitle>
+            <High>
                 <Left>
                     <Flex>
                         <h3>FlexBox</h3>
@@ -110,6 +162,13 @@ const Unit1 = () => {
                         <img src={Flexbox}/>
                     </Flex>
                 </Left>
+                <Right>
+                <Flex1>
+                    <h3>Sprint Challenge</h3>
+                    <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
+                    <img src={Sprint1}/>
+                </Flex1>
+            </Right>
             </High>
         </Card>
     )
