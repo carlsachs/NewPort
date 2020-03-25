@@ -6,6 +6,7 @@ import styled from "styled-components";
 //import pictures
 import Advanced1 from "./Advanced1.png";
 import FunBus from "./FunBus.png";
+import Carlos from "./Carlos.png";
 
 const Card = styled.div`
     width: 80%;
@@ -200,9 +201,9 @@ const Unit2 = () => {
                 </Left>
                 <Middle>
                     <Flex2>
-                        <h3>Preprocessing I</h3>
-                        <a href='https://github.com/carlsachs/Preprocessing-I'>Github Repo</a>
-                        <img src={Advanced1}/>
+                        <h3>Sprint Challenge</h3>
+                        <a href='https://github.com/carlsachs/Sprint-Challenge--Advanced-CSS'>Github Repo</a>
+                        <img src={Carlos}/>
                     </Flex2>
                 </Middle>
                 <Right>
