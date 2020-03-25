@@ -8,11 +8,11 @@ export default function Nav () {
         color: #0C4763;
         width: 10%;
         padding-top: 10px;
+        text-decoration:none;
         :hover {
             color: #0C4763;
-            text-decoration: none;
             border-radius: 7%;
-            box-shadow: 0 4px 8px 0 rgba(74, 197, 255, 0.2), 0 6px 20px 0 rgba(74, 197, 255, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(11, 22, 84, 0.2), 0 6px 20px 0 rgba(11, 22, 84, 0.19);
             transition: all 0.3s ease;
         }
     `;

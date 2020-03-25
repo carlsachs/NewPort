@@ -7,7 +7,7 @@ import Nav from "./Nav.js";
 import styled from "styled-components";
 
 const Whole = styled.div`
-
+    display: flex;
 `;
 
 const ProWrap = styled.div`
@@ -15,7 +15,8 @@ const ProWrap = styled.div`
 `;
 
 const Title = styled.div`
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-left: 45%;
     
 `;
 
@@ -25,7 +26,7 @@ const Projects = () => {
             <Nav />
             <ProWrap>
                 <Title>
-                    <h1>The Projects page is displaying.</h1>
+                    <h1>Projects</h1>
                 </Title>
             </ProWrap>
         </Whole>
