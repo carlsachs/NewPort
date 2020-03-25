@@ -8,6 +8,7 @@ import Sprint1 from "./Sprint1.png";
 // STYLING
 
 import styled from "styled-components";
+import Flip from "react-reveal/Flip";
 
 const Card = styled.div`
     width: 80%;
@@ -53,7 +54,6 @@ const Card = styled.div`
 
     const High = styled.div`
         width: 100%;
-        border: 1px solid blue;
         color: #303D84;
         display: flex;
         justify-content: space-between;
@@ -64,12 +64,12 @@ const Card = styled.div`
     `;
     const Left = styled.div`
         display: flex;
-        border: 1px solid green;
         width: 40%;
         justify-content: space-evenly;
         margin-bottom: 4%;
         margin-left: 5%;
         margin-top: 2%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
             margin-top: 10%;
@@ -77,9 +77,6 @@ const Card = styled.div`
         }
         img {
             height: 150px;
-            :hover {
-                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-            }
         }
         a {
             margin: 0 auto;
@@ -99,16 +96,17 @@ const Card = styled.div`
 
     const Right = styled.div`
     display: flex;
-    border: 1px solid green;
     width: 40%;
     justify-content: space-evenly;
     margin-top: 2%;
     margin-right: 5%;
     margin-bottom: 4%;
+    padding-bottom: 5%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     h3 {
         margin: 0 auto;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 12%;
+        margin-bottom: 12%;
     }
     img {
         height: 150px;
