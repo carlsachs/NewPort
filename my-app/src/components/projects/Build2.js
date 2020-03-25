@@ -3,6 +3,7 @@ import React from "react";
 //Import Pictures
 
 import med from "./med.png";
+import star from "./star.png"
 
 //Styling
 
@@ -56,10 +57,28 @@ import styled from "styled-components";
         margin-top: 2%;
     `;
 
+    const StarDiv = styled.div`
+        width: 40%;
+        display: flex;
+        flex-flow: row: nowrap;
+        margin-top: 3%;
+        margin-left: 21%;
+        img {
+            margin-right: 30%;
+        }
+    `;
+
 
 const Build2 = () => {
     return (
         <Card>
+            <StarDiv>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+            </StarDiv>
             <Title>Build 2: React</Title>
             <h2>Task:</h2>
             <h3>Create the front-end for a cannabis consumer application.</h3>
