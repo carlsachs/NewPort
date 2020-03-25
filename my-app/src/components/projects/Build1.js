@@ -22,7 +22,7 @@ import styled from "styled-components";
             margin-bottom: 3%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 20%;
+            width: 10%;
             height: 35px;
             text-align: center;
             padding-top: 1%;
