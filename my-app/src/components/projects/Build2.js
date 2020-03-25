@@ -2,6 +2,8 @@ import React from "react";
 
 //Import Pictures
 
+import med from "./med.png";
+import star from "./star.png"
 
 //Styling
 
@@ -40,6 +42,11 @@ import styled from "styled-components";
             margin-top: 2%;
             margin-bottom: 2%;
         }
+        img {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom : 2.75%;
+        }
     `;
 
     const Title = styled.h1`
@@ -50,16 +57,36 @@ import styled from "styled-components";
         margin-top: 2%;
     `;
 
+    const StarDiv = styled.div`
+        width: 40%;
+        display: flex;
+        flex-flow: row: nowrap;
+        margin-top: 3%;
+        margin-left: 21%;
+        img {
+            margin-right: 30%;
+        }
+    `;
 
-const Build1 = () => {
+
+const Build2 = () => {
     return (
         <Card>
-            <Title>Build 1: Marketing Page</Title>
+            <StarDiv>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+                <img src={star}/>
+            </StarDiv>
+            <Title>Build 2: React</Title>
             <h2>Task:</h2>
-            <h3>Create a marketing page for the team I was assigned.</h3>
-            <a href="https://dev-desk-queue.netlify.com/index.html">DevQ</a>
+            <h3>Create the front-end for a cannabis consumer application.</h3>
+            <img src={med}/>
+            <a href="https://github.com/bw-med-cabinet-3/Front-End">Github Repo</a>
+            <a href="https://med-cabinet-3.now.sh/">Deployed Site</a>
         </Card>
     )
 }
 
-export default Build1;
+export default Build2;
