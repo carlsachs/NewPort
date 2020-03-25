@@ -2,8 +2,8 @@ import React from "react";
 
 // Import Pictures
 
-import Flexbox from "./Flexbox.png";
-import Sprint1 from "./Sprint1.png";
+import Cars from "./CarSales";
+import Smurfs from "./Smurfs.png";
 
 // STYLING
 
@@ -159,16 +159,16 @@ const Unit8 = () => {
             <High>
                 <Left>
                     <Flex>
-                        <h3>FlexBox</h3>
-                        <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox}/>
+                        <h3>Car Sales</h3>
+                        <a href='https://github.com/carlsachs/Car-Sales'>Github Repo</a>
+                        <img src={Cars}/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
-                    <h3>Sprint Challenge</h3>
-                    <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
-                    <img src={Sprint1}/>
+                    <h3>Sprint Challenge - Smurfs</h3>
+                    <a href='https://github.com/carlsachs/Sprint-Challenge-State-Management-Smurfs'>Github Repo</a>
+                    <img src={Smurfs}/>
                 </Flex1>
             </Right>
             </High>
