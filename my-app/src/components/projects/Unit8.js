@@ -2,7 +2,7 @@ import React from "react";
 
 // Import Pictures
 
-import Cars from "./CarSales";
+import Cars from "./CarSales.png";
 import Smurfs from "./Smurfs.png";
 
 // STYLING
@@ -112,16 +112,18 @@ const Card = styled.div`
     }
     img {
         height: 150px;
+        width: 90%;
+        margin-left: 5%;
     }
     a {
         margin: 0 auto;
-        margin-bottom: 12%;
+        margin-bottom: 8%;
         text-decoration: none;
         border: 1px solid #0B1654;
-        width: 100%;
+        width: 40%;
         height: 35px;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 2.5%;
         border-radius: 5%;
         :hover {
             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
