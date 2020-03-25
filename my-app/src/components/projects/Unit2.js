@@ -61,7 +61,7 @@ const Card = styled.div`
     `;
     const Left = styled.div`
         display: flex;
-        width: 40%;
+        width: 30%;
         justify-content: space-evenly;
         margin-bottom: 4%;
         margin-left: 5%;
@@ -91,47 +91,86 @@ const Card = styled.div`
         }
     `;
 
-    const Right = styled.div`
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-bottom: 4%;
-    padding-bottom: 5%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    h3 {
-        margin: 0 auto;
-        margin-top: 12%;
-        margin-bottom: 12%;
-    }
-    img {
-        height: 150px;
-    }
-    a {
-        margin: 0 auto;
-        margin-bottom: 12%;
-        text-decoration: none;
-        border: 1px solid #0B1654;
-        width: 100%;
-        height: 35px;
-        text-align: center;
-        padding-top: 5%;
-        border-radius: 5%;
-        :hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    const Middle = styled.div`
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-bottom: 4%;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        h3 {
+            margin: 0 auto;
+            margin-top: 12%;
+            margin-bottom: 12%;
         }
-    }
+        img {
+            height: 150px;
+        }
+        a {
+            margin: 0 auto;
+            margin-bottom: 12%;
+            text-decoration: none;
+            border: 1px solid #0B1654;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            padding-top: 5%;
+            border-radius: 5%;
+            :hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+        }
+    `;
+
+    const Right = styled.div`
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-bottom: 4%;
+        padding-bottom: 5%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        h3 {
+            margin: 0 auto;
+            margin-top: 12%;
+            margin-bottom: 12%;
+        }
+        img {
+            height: 150px;
+        }
+        a {
+            margin: 0 auto;
+            margin-bottom: 12%;
+            text-decoration: none;
+            border: 1px solid #0B1654;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            padding-top: 5%;
+            border-radius: 5%;
+            :hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+        }
     `;
 
     const Flex = styled.div`
-    display: flex;
-    flex-flow: column nowrap;
+        display: flex;
+        flex-flow: column nowrap;
     `;
 
     const Flex1 = styled.div`
-    display: flex;
-    flex-flow: column nowrap;
+        display: flex;
+        flex-flow: column nowrap;
+    `;
+
+    const Flex2 = styled.div`
+        display: flex;
+        flex-flow: column nowrap;
     `;
 
 const Unit2 = () => {
@@ -159,6 +198,13 @@ const Unit2 = () => {
                         <img src={Advanced1}/>
                     </Flex>
                 </Left>
+                <Middle>
+                    <Flex2>
+                        <h3>Preprocessing I</h3>
+                        <a href='https://github.com/carlsachs/Preprocessing-I'>Github Repo</a>
+                        <img src={Advanced1}/>
+                    </Flex2>
+                </Middle>
                 <Right>
                 <Flex1>
                     <h3>Preprocessing II</h3>
