@@ -63,6 +63,7 @@ const Card = styled.div`
             justify-content: center;
         }
     `;
+   
     const Left = styled.div`
         display: flex;
         width: 40%;
@@ -138,16 +139,18 @@ const Card = styled.div`
     flex-flow: column nowrap;
     `;
 
-const Unit1 = () => {
+const Unit8 = () => {
     return (
         <Card>
-            <Title>Unit 1: Web Fundamentals</Title>
+            <Title>Unit 8: Advanced State Management</Title>
             <Focus>
                 <h3>Focus:</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GitFlow</li>
+                    <li>The Reducer Pattern</li>
+                    <li>Redux</li>
+                    <li>Async Redux</li>
+                    <li>Actions/Action Creators</li>
+                    <li>Context API</li>
                 </ul>
             </Focus>
             <HighlightTitle>
@@ -172,4 +175,4 @@ const Unit1 = () => {
         </Card>
     )
 }
-export default Unit1;
+export default Unit8;
