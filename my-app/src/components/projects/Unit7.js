@@ -2,8 +2,8 @@ import React from "react";
 
 // Import Pictures
 
-import Flexbox from "./Flexbox.png";
-import Sprint1 from "./Sprint1.png";
+import Advanced from "./AdvancedReact.png";
+import Todo from "./Todo.png";
 
 // STYLING
 
@@ -138,16 +138,17 @@ const Card = styled.div`
     flex-flow: column nowrap;
     `;
 
-const Unit1 = () => {
+const Unit7 = () => {
     return (
         <Card>
-            <Title>Unit 1: Web Fundamentals</Title>
+            <Title>Unit 7: Web Fundamentals</Title>
             <Focus>
                 <h3>Focus:</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GitFlow</li>
+                    <li>Class Components</li>
+                    <li>The React Lifecycle</li>
+                    <li>Events in Forms</li>
+                    <li>Testing Web Applications</li>
                 </ul>
             </Focus>
             <HighlightTitle>
@@ -156,20 +157,20 @@ const Unit1 = () => {
             <High>
                 <Left>
                     <Flex>
-                        <h3>FlexBox</h3>
-                        <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox}/>
+                        <h3>React To-Do</h3>
+                        <a href='https://github.com/carlsachs/React-Todo'>Github Repo</a>
+                        <img src={Todo}/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
                     <h3>Sprint Challenge</h3>
-                    <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
-                    <img src={Sprint1}/>
+                    <a href='https://github.com/LambdaSchool/Sprint-Challenge-Advanced-React'>Github Repo</a>
+                    <img src={Advanced}/>
                 </Flex1>
             </Right>
             </High>
         </Card>
     )
 }
-export default Unit1;
+export default Unit7;

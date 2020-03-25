@@ -18,6 +18,8 @@ const Card = styled.div`
         margin: 0 auto;
         margin-top: 3%;
         margin-bottom: 3%;
+        background: rgb(53,149,255);
+        background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
     `;
 
@@ -184,7 +186,7 @@ const Unit3 = () => {
                 <h3>Focus:</h3>
                 <ul>
                     <li>Variable, Arrays, Objects, and Functions</li>
-                    <li>Calbacks</li>
+                    <li>Callbacks</li>
                     <li>.map( ), .reduce( ), and .filter( ) methods</li>
                     <li>"this" keyword</li>
                     <li>Constructors + Prototypes</li>

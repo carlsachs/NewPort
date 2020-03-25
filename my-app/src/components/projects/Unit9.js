@@ -2,9 +2,9 @@ import React from "react";
 
 // Import Pictures
 
-import NASA from "./NASA.png";
-import Insta from "./insta.png";
-import Wars from "./Wars.png";
+import Login from "./login.png";
+import Bubbles from "./bubbles.png";
+import Movies from "./movies1.png";
 
 // STYLING
 
@@ -76,20 +76,23 @@ import styled from "styled-components";
         h3 {
             margin: 0 auto;
             margin-top: 10%;
-            margin-bottom: 10%;
+            margin-bottom: 12%;
         }
         img {
-            height: 150px;
+            height: 100px;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 10%;
         }
         a {
             margin: 0 auto;
             margin-bottom: 10%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 80%;
+            width: 40%;
             height: 35px;
             text-align: center;
-            padding-top: 5%;
+            padding-top: 2%;
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -114,13 +117,15 @@ import styled from "styled-components";
         }
         img {
             height: 150px;
+            width: 90%;
+            margin: 0 auto;
         }
         a {
             margin: 0 auto;
             margin-bottom: 12%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 100%;
+            width: 60%;
             height: 35px;
             text-align: center;
             padding-top: 5%;
@@ -179,19 +184,18 @@ import styled from "styled-components";
         flex-flow: column nowrap;
     `;
 
-const Unit5 = () => {
+const Unit9 = () => {
     return (
         <Card>
-            <Title>Unit 5: Intro to React</Title>
+            <Title>Unit 9: Advanced Web Applications</Title>
             <Focus>
                 <h3>Focus:</h3>
                 <ul>
-                    <li>React.js</li>
-                    <li>Components in React</li>
-                    <li>State</li>
-                    <li>Props</li>
-                    <li>Hooks</li>
-                    <li>Bootstrapping a UI</li>
+                    <li>Testing React</li>
+                    <li>Client-Side Authorization</li>
+                    <li>Protected Routes</li>
+                    <li>HTTP/AJAX</li>
+                    <li>PUT/DELETE Axios</li>
                 </ul>
             </Focus>
             <HighlightTitle>
@@ -200,27 +204,27 @@ const Unit5 = () => {
             <High>
                 <Left>
                     <Flex>
-                        <h3>NASA Photo of Day</h3>
-                        <a href='https://github.com/carlsachs/nasa-photo-of-the-day'>Github Repo</a>
-                        <img src={NASA}/>
+                        <h3>Simple Login w/ Routes</h3>
+                        <a href='https://github.com/carlsachs/Auth-Friends'>Github Repo</a>
+                        <img src={Login}/>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
-                        <h3>Sprint Challenge</h3>
-                        <a href='https://github.com/carlsachs/Sprint-Challenge-React-Wars'>Github Repo</a>
-                        <img src={Wars}/>
+                        <h3>Sprint Challenge - Bubbles</h3>
+                        <a href='https://github.com/carlsachs/react-bubbles'>Github Repo</a>
+                        <img src={Bubbles}/>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
-                    <h3>Instagram Clone</h3>
-                    <a href='https://github.com/LambdaSchool/React-Components-Insta-Clone'>Github Repo</a>
-                    <img src={Insta}/>
+                    <h3>HTTP Movies</h3>
+                    <a href='https://github.com/carlsachs/HTTP-Movies-Assignment'>Github Repo</a>
+                    <img src={Movies}/>
                 </Flex1>
             </Right>
             </High>
         </Card>
     )
 }
-export default Unit5;
+export default Unit9;

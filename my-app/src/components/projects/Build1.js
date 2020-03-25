@@ -16,6 +16,8 @@ import styled from "styled-components";
         margin-top: 3%;
         margin-bottom: 3%;
         color: #1B286C;
+        background: rgb(53,149,255);
+        background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
         a {
             margin: 0 auto;
@@ -54,7 +56,7 @@ import styled from "styled-components";
 const Build1 = () => {
     return (
         <Card>
-            <Title>Build 1: Marketing Page</Title>
+            <Title>Build: Marketing Page/UI</Title>
             <h2>Task:</h2>
             <h3>Create a marketing page for the team I was assigned.</h3>
             <a href="https://dev-desk-queue.netlify.com/index.html">DevQ</a>

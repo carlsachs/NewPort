@@ -2,8 +2,8 @@ import React from "react";
 
 // Import Pictures
 
-import Flexbox from "./Flexbox.png";
-import Sprint1 from "./Sprint1.png";
+import Cars from "./CarSales.png";
+import Smurfs from "./Smurfs.png";
 
 // STYLING
 
@@ -63,6 +63,7 @@ const Card = styled.div`
             justify-content: center;
         }
     `;
+   
     const Left = styled.div`
         display: flex;
         width: 40%;
@@ -111,16 +112,18 @@ const Card = styled.div`
     }
     img {
         height: 150px;
+        width: 90%;
+        margin-left: 5%;
     }
     a {
         margin: 0 auto;
-        margin-bottom: 12%;
+        margin-bottom: 8%;
         text-decoration: none;
         border: 1px solid #0B1654;
-        width: 100%;
+        width: 40%;
         height: 35px;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 2.5%;
         border-radius: 5%;
         :hover {
             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -138,16 +141,18 @@ const Card = styled.div`
     flex-flow: column nowrap;
     `;
 
-const Unit1 = () => {
+const Unit8 = () => {
     return (
         <Card>
-            <Title>Unit 1: Web Fundamentals</Title>
+            <Title>Unit 8: Advanced State Management</Title>
             <Focus>
                 <h3>Focus:</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GitFlow</li>
+                    <li>The Reducer Pattern</li>
+                    <li>Redux</li>
+                    <li>Async Redux</li>
+                    <li>Actions/Action Creators</li>
+                    <li>Context API</li>
                 </ul>
             </Focus>
             <HighlightTitle>
@@ -156,20 +161,20 @@ const Unit1 = () => {
             <High>
                 <Left>
                     <Flex>
-                        <h3>FlexBox</h3>
-                        <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox}/>
+                        <h3>Car Sales</h3>
+                        <a href='https://github.com/carlsachs/Car-Sales'>Github Repo</a>
+                        <img src={Cars}/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
-                    <h3>Sprint Challenge</h3>
-                    <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
-                    <img src={Sprint1}/>
+                    <h3>Sprint Challenge - Smurfs</h3>
+                    <a href='https://github.com/carlsachs/Sprint-Challenge-State-Management-Smurfs'>Github Repo</a>
+                    <img src={Smurfs}/>
                 </Flex1>
             </Right>
             </High>
         </Card>
     )
 }
-export default Unit1;
+export default Unit8;
