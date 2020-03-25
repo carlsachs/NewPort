@@ -2,6 +2,7 @@ import React from "react";
 
 //Import Pictures
 
+import med from "./med.png";
 
 //Styling
 
@@ -40,6 +41,11 @@ import styled from "styled-components";
             margin-top: 2%;
             margin-bottom: 2%;
         }
+        img {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom : 2.75%;
+        }
     `;
 
     const Title = styled.h1`
@@ -57,6 +63,7 @@ const Build2 = () => {
             <Title>Build 2: React</Title>
             <h2>Task:</h2>
             <h3>Create the front-end for a cannabis consumer application.</h3>
+            <img src={med}/>
             <a href="https://github.com/bw-med-cabinet-3/Front-End">Github Repo</a>
             <a href="https://med-cabinet-3.now.sh/">Deployed Site</a>
         </Card>
