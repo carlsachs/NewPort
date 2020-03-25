@@ -8,7 +8,6 @@ import Sprint1 from "./Sprint1.png";
 // STYLING
 
 import styled from "styled-components";
-import Flip from "react-reveal/Flip";
 
 const Card = styled.div`
     width: 80%;
