@@ -2,10 +2,11 @@ import React from "react";
 
 //IMPORTING COMPONENTS
 import Nav from "./Nav.js";
+import Unit1 from "./projects/Unit1.js";
 
 //styling
 import styled from "styled-components";
-import Unit1 from "./projects/Unit1.js";
+import Fade from 'react-reveal/Fade';
 
 const Whole = styled.div`
     display: flex;
@@ -20,13 +21,11 @@ const Title = styled.div`
     margin-top: 8%;
     margin-bottom: 4.5%;
     text-align: center;
-    border: 1px solid black;
     color: #1B286C;
     
 `;
 
 const Lambda = styled.div`
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -50,7 +49,10 @@ const ProTitles = styled.div`
     padding-right: 15%;
     padding-left: 15%;
     text-align: center;
+    color: #1B286C;
 `;
+
+const UnitOne = styled.div``;
 
 const Projects = () => {
     return (
@@ -74,6 +76,11 @@ const Projects = () => {
                 <ProTitles>
                     <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I think I've forgotten how to make the Old Fashioned.</h3>
                 </ProTitles>
+                <UnitOne>
+                    <Fade bottom>
+                        <Unit1 />
+                    </Fade>
+                </UnitOne>
             </BottomWrap>
         </Whole>
     )

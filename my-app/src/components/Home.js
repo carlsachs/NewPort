@@ -55,6 +55,8 @@ const Button = styled.button`
   }
 `;
 
+const Type = styled.div``;
+
 //PARTICLES JS ANIMATION
 
 const Home = () => {
@@ -90,12 +92,14 @@ const Home = () => {
     "zIndex": "-1"
     }}
     />
-    <Typist>
-    <Title>
-      <h1>Carl Sachs</h1>
-      <h2>Full-Stack Web Developer</h2>
-    </Title>
-    </Typist>
+    <Type>
+      <Typist>
+        <Title>
+          <h1>Carl Sachs</h1>
+          <h2>Full-Stack Web Developer</h2>
+        </Title>
+      </Typist>
+    </Type>
     <ButtonWrap>
       <Button onClick={toProjects}>Projects</Button>
       <Button onClick={toResume}>My Resume</Button>
