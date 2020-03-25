@@ -12,6 +12,7 @@ import Unit6 from "./projects/Unit6.js";
 import Build2 from "./projects/Build2.js";
 import Unit7 from "./projects/Unit7.js";
 import Unit8 from "./projects/Unit8.js";
+import Unit9 from "./projects/Unit9.js";
 
 //styling
 import styled from "styled-components";
@@ -80,6 +81,8 @@ const BuildTwo = styled.div``;
 const UnitSeven = styled.div``;
 
 const UnitEight = styled.div``;
+
+const UnitNine = styled.div``;
 
 const Projects = () => {
     return (
@@ -153,6 +156,11 @@ const Projects = () => {
                         <Unit8 />
                     </Fade>
                 </UnitEight>
+                <UnitNine>
+                    <Fade bottom>
+                        <Unit9 />
+                    </Fade>
+                </UnitNine>
             </BottomWrap>
         </Whole>
     )
