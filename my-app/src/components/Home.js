@@ -2,8 +2,11 @@ import React from 'react';
 import { useHistory } from "react-router-dom";
 
 //IMPORTING OTHER FILES
+
 import Nav from "./Nav.js";
+
 //Styling
+
 import Typist from 'react-typist';
 import Particles from "react-particles-js";
 import styled from "styled-components";
@@ -45,7 +48,7 @@ const Button = styled.button`
   border: 1px solid #0B1654;
   background: none;
   :hover {
-    box-shadow: 0 4px 8px 0 rgba(74, 197, 255, 0.2), 0 6px 20px 0 rgba(74, 197, 255, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(11, 22, 84, 0.2), 0 6px 20px 0 rgba(11, 22, 84, 0.2);
     color: #303D84;
     border-radius: 4%;
     transition: all 0.3s ease;
@@ -74,6 +77,10 @@ const Home = () => {
     history.push('/about')
   }
 
+  const toResume = () => {
+    history.push('/resume')
+  }
+
   return (
     <HomeDiv>
     <Nav />
@@ -91,7 +98,7 @@ const Home = () => {
     </Typist>
     <ButtonWrap>
       <Button onClick={toProjects}>Projects</Button>
-      <Button>LinkedIn</Button>
+      <Button onClick={toResume}>My Resume</Button>
       <Button onClick={toAbout}>About Me</Button>
     </ButtonWrap>
     </HomeDiv>

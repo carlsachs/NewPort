@@ -33,7 +33,7 @@ export default function Nav () {
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
                     <StyledLink to="/about">About Me</StyledLink>
-                    <StyledLink to="https://www.linkedin.com/in/carl-sachs-198780141">LinkedIn</StyledLink>
+                    <StyledLink to="/resume">Resume</StyledLink>
             </NavWrap>
         </header>
     )
