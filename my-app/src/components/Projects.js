@@ -8,6 +8,7 @@ import Unit3 from "./projects/Unit3.js";
 import Build1 from "./projects/Build1.js";
 import Unit4 from "./projects/Unit4.js";
 import Unit5 from "./projects/Unit5.js";
+import Unit6 from "./projects/Unit6.js";
 
 //styling
 import styled from "styled-components";
@@ -69,6 +70,8 @@ const UnitFour = styled.div``;
 
 const UnitFive = styled.div``;
 
+const UnitSix = styled.div``;
+
 const Projects = () => {
     return (
         <Whole>
@@ -121,6 +124,11 @@ const Projects = () => {
                         <Unit5 />
                     </Fade>
                 </UnitFive>
+                <UnitSix>
+                    <Fade bottom>
+                        <Unit6 />
+                    </Fade>
+                </UnitSix>
             </BottomWrap>
         </Whole>
     )
