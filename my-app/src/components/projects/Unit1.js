@@ -8,7 +8,6 @@ import Sprint1 from "./Sprint1.png";
 // STYLING
 
 import styled from "styled-components";
-import Flip from "react-reveal/Flip";
 
 const Card = styled.div`
     width: 80%;
@@ -17,7 +16,7 @@ const Card = styled.div`
     flex-flow: column nowrap;
     margin: 0 auto;
     margin-top: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
     `;
 
