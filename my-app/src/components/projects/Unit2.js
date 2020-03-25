@@ -1,14 +1,11 @@
 import React from "react";
 
-// Import Pictures
-
-import Flexbox from "./Flexbox.png";
-import Sprint1 from "./Sprint1.png";
-
-// STYLING
-
+//import styling
 import styled from "styled-components";
-import Flip from "react-reveal/Flip";
+
+//import pictures
+import Advanced1 from "./Advanced1.png";
+import FunBus from "./FunBus.png";
 
 const Card = styled.div`
     width: 80%;
@@ -17,7 +14,7 @@ const Card = styled.div`
     flex-flow: column nowrap;
     margin: 0 auto;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
     `;
 
@@ -73,7 +70,7 @@ const Card = styled.div`
         h3 {
             margin: 0 auto;
             margin-top: 10%;
-            margin-bottom: 10%;
+            margin-bottom: 7%;
         }
         img {
             height: 150px;
@@ -83,7 +80,7 @@ const Card = styled.div`
             margin-bottom: 10%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 80%;
+            width: 60%;
             height: 35px;
             text-align: center;
             padding-top: 5%;
@@ -137,16 +134,18 @@ const Card = styled.div`
     flex-flow: column nowrap;
     `;
 
-const Unit1 = () => {
+const Unit2 = () => {
     return (
         <Card>
-            <Title>Unit 1: Web Fundamentals</Title>
+            <Title>Unit 2: Advanced CSS</Title>
             <Focus>
                 <h3>Focus:</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GitFlow</li>
+                    <li>Responsive Design</li>
+                    <li>LESS.css</li>
+                    <li>Parametric Mix-Ins/Nesting</li>
+                    <li>Incorporating Functions</li>
+                    <li>Media Queries</li>
                 </ul>
             </Focus>
             <HighlightTitle>
@@ -155,20 +154,20 @@ const Unit1 = () => {
             <High>
                 <Left>
                     <Flex>
-                        <h3>FlexBox</h3>
-                        <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox}/>
+                        <h3>Preprocessing I</h3>
+                        <a href='https://github.com/carlsachs/Preprocessing-I'>Github Repo</a>
+                        <img src={Advanced1}/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
-                    <h3>Sprint Challenge</h3>
-                    <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
-                    <img src={Sprint1}/>
+                    <h3>Preprocessing II</h3>
+                    <a href='https://github.com/carlsachs/Preprocessing-II'>Github Repo</a>
+                    <img src={FunBus}/>
                 </Flex1>
             </Right>
             </High>
         </Card>
     )
 }
-export default Unit1;
+export default Unit2;

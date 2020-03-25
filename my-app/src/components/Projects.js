@@ -3,6 +3,7 @@ import React from "react";
 //IMPORTING COMPONENTS
 import Nav from "./Nav.js";
 import Unit1 from "./projects/Unit1.js";
+import Unit2 from "./projects/Unit2";
 
 //styling
 import styled from "styled-components";
@@ -54,6 +55,8 @@ const ProTitles = styled.div`
 
 const UnitOne = styled.div``;
 
+const UnitTwo = styled.div``;
+
 const Projects = () => {
     return (
         <Whole>
@@ -81,6 +84,11 @@ const Projects = () => {
                         <Unit1 />
                     </Fade>
                 </UnitOne>
+                <UnitTwo>
+                    <Fade bottom>
+                        <Unit2 />
+                    </Fade>
+                </UnitTwo>
             </BottomWrap>
         </Whole>
     )
