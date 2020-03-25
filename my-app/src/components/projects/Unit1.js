@@ -56,6 +56,7 @@ const Card = styled.div`
         border: 1px solid green;
         width: 40%;
         justify-content: space-evenly;
+        margin-bottom: 5%;
         h3 {
             margin: 0 auto;
             margin-top: 10%;
@@ -71,12 +72,15 @@ const Card = styled.div`
             margin: 0 auto;
             margin-bottom: 10%;
             text-decoration: none;
-            border: 1px solid blue;
+            border: 1px solid #0B1654;
             width: 70%;
             height: 35px;
             text-align: center;
             padding-top: 5%;
             border-radius: 5%;
+            :hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
         }
     `;
 
