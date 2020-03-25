@@ -5,6 +5,7 @@ import Nav from "./Nav.js";
 import Unit1 from "./projects/Unit1.js";
 import Unit2 from "./projects/Unit2.js";
 import Unit3 from "./projects/Unit3.js";
+import Build1 from "./projects/Build1.js";
 
 //styling
 import styled from "styled-components";
@@ -60,6 +61,8 @@ const UnitTwo = styled.div``;
 
 const UnitThree = styled.div``;
 
+const BuildOne = styled.div``;
+
 const Projects = () => {
     return (
         <Whole>
@@ -97,6 +100,11 @@ const Projects = () => {
                         <Unit3 />
                     </Fade>
                 </UnitThree>
+                <BuildOne>
+                <Fade bottom>
+                    <Build1 />
+                </Fade>
+            </BuildOne>
             </BottomWrap>
         </Whole>
     )
