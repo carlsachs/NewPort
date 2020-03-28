@@ -30,7 +30,6 @@ const TopWrap = styled.div`
 
 const Title = styled.div`
     margin-top: 8%;
-    margin-bottom: 4.5%;
     text-align: center;
     color: #1B286C;
     
