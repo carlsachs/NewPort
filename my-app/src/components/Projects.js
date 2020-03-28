@@ -85,7 +85,6 @@ const UnitEight = styled.div``;
 const UnitNine = styled.div``;
 
 const Desc = styled.div`
-    border: 1px solid black;
     position: absolute;
     top: 46%;
     left: 34%;
@@ -106,9 +105,11 @@ const Projects = () => {
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
                     <ModulePNG />
-                </Lambda>
+                </Lambda>\
                 <Desc>
-                    <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wse) was self-taught.</p>
+                    <Fade right>
+                    <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wise) was self-taught.</p>
+                    </Fade>
                 </Desc>
             </TopWrap>
             <MiddleWrap>
