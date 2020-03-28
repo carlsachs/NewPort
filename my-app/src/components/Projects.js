@@ -13,6 +13,7 @@ import Build2 from "./projects/Build2.js";
 import Unit7 from "./projects/Unit7.js";
 import Unit8 from "./projects/Unit8.js";
 import Unit9 from "./projects/Unit9.js";
+import ModulePNG from "./ProjectSVG.js";
 
 //styling
 import styled from "styled-components";
@@ -29,7 +30,6 @@ const TopWrap = styled.div`
 
 const Title = styled.div`
     margin-top: 8%;
-    margin-bottom: 4.5%;
     text-align: center;
     color: #1B286C;
     
@@ -94,9 +94,7 @@ const Projects = () => {
                 </Title>
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At elementum eu facilisis sed odio. Adipiscing enim eu turpis egestas. Purus faucibus ornare suspendisse sed. Venenatis tellus in metus vulputate eu scelerisque felis. Varius duis at consectetur lorem donec massa sapien faucibus et. Tempus urna et pharetra pharetra. Quisque id diam vel quam elementum pulvinar etiam non. Massa eget egestas purus viverra accumsan in nisl. Aliquam sem et tortor consequat id porta nibh venenatis. Sit amet tellus cras adipiscing enim eu turpis egestas. Dignissim convallis aenean et tortor at risus viverra adipiscing. Mattis vulputate enim nulla aliquet porttitor. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Orci nulla pellentesque dignissim enim sit amet. A scelerisque purus semper eget duis at tellus at. Arcu non sodales neque sodales ut etiam. Vulputate enim nulla aliquet porttitor lacus luctus. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Nisl vel pretium lectus quam id.
-
-                    Sed id semper risus in. Maecenas volutpat blandit aliquam etiam erat velit. Vitae justo eget magna fermentum iaculis eu non diam. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Vitae et leo duis ut diam. Sagittis orci a scelerisque purus semper eget duis. Ipsum a arcu cursus vitae congue mauris rhoncus. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Nam libero justo laoreet sit amet cursus. Urna et pharetra pharetra massa massa ultricies. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Quis eleifend quam adipiscing vitae proin. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Tincidunt nunc pulvinar sapien et. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce.</h3>
+                    <ModulePNG />
                 </Lambda>
             </TopWrap>
             <MiddleWrap>
