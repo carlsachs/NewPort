@@ -1,9 +1,6 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 
-//Import Global Fonts
-
-import GlobalStyles from "../fonts/fonts.js";
 //IMPORTING OTHER FILES
 
 import Nav from "./Nav.js";
@@ -25,10 +22,13 @@ const HomeDiv=styled.div`
 const Title = styled.div`
     display: flex;
     flex-flow: column nowrap;
+    position: absolute;
+    left: 40%;
     text-align: center;
     width: 20%;
     margin: 0 auto;
     margin-top: 10%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     h1 {
       font-family: "LuloCleanW01-One";
       font-size: 3rem;
@@ -43,20 +43,29 @@ const Title = styled.div`
 const ButtonWrap = styled.div`
     display: flex;
     justify-content: space-evenly;
-    margin-top:5%;
+    margin: 0 auto;
+    width: 45%;
+    margin-top:30%;
+    z-index: -1;
 `;
 
 const Button = styled.button`
-  width: 350px;
-  height: 150px;
+  width: 250px;
+  height: 100px;
   border: 1px solid #0B1654;
   background: none;
+  font-family: LuloCleanW01-One;
   :hover {
     box-shadow: 0 4px 8px 0 rgba(11, 22, 84, 0.2), 0 6px 20px 0 rgba(11, 22, 84, 0.2);
     color: #303D84;
     border-radius: 4%;
     transition: all 0.3s ease;
   }
+`;
+
+const TitleWrap = styled.div`
+  border: 1px solid green;
+  width: 70%;
 `;
 
 //PARTICLES JS ANIMATION
@@ -87,7 +96,6 @@ const Home = () => {
 
   return (
     <HomeDiv>
-    <GlobalStyles />
     <Nav />
     <Particles 
     params={ particleOpt2 }
@@ -102,7 +110,7 @@ const Home = () => {
         </Title>
       </Typist>
     <ButtonWrap>
-      <Button onClick={toProjects}>Projects</Button>
+        <Button onClick={toProjects}>Projects</Button>
       <Button onClick={toResume}>My Resume</Button>
       <Button onClick={toAbout}>About Me</Button>
     </ButtonWrap>
