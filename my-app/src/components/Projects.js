@@ -84,6 +84,15 @@ const UnitEight = styled.div``;
 
 const UnitNine = styled.div``;
 
+const Desc = styled.div`
+    border: 1px solid black;
+    position: absolute;
+    top: 46%;
+    left: 34%;
+    height: 400px;
+    width: 40%;
+`;
+
 const Projects = () => {
     return (
         <Whole>
@@ -96,6 +105,9 @@ const Projects = () => {
                     <h2>How does Lambda School Work?</h2>
                     <ModulePNG />
                 </Lambda>
+                <Desc>
+
+                </Desc>
             </TopWrap>
             <MiddleWrap>
 
