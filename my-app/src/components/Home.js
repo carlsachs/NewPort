@@ -1,6 +1,9 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 
+//Import Global Fonts
+
+import GlobalStyles from "../fonts/fonts.js";
 //IMPORTING OTHER FILES
 
 import Nav from "./Nav.js";
@@ -27,6 +30,7 @@ const Title = styled.div`
     margin: 0 auto;
     margin-top: 10%;
     h1 {
+      font-family: "LuloCleanW01-One";
       font-size: 3rem;
       color: #0B1654;
     }
@@ -54,8 +58,6 @@ const Button = styled.button`
     transition: all 0.3s ease;
   }
 `;
-
-const Type = styled.div``;
 
 //PARTICLES JS ANIMATION
 
@@ -85,6 +87,7 @@ const Home = () => {
 
   return (
     <HomeDiv>
+    <GlobalStyles />
     <Nav />
     <Particles 
     params={ particleOpt2 }
@@ -92,14 +95,12 @@ const Home = () => {
     "zIndex": "-1"
     }}
     />
-    <Type>
       <Typist>
         <Title>
           <h1>Carl Sachs</h1>
           <h2>Full-Stack Web Developer</h2>
         </Title>
       </Typist>
-    </Type>
     <ButtonWrap>
       <Button onClick={toProjects}>Projects</Button>
       <Button onClick={toResume}>My Resume</Button>

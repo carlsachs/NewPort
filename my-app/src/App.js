@@ -9,7 +9,7 @@ import AboutMe from "./components/AboutMe.js";
 import Resume from "./components/Resume.js";
 
 //styling
-// import styled from "styled-components";
+import styled from "styled-components";
 
 function App() {
   return (

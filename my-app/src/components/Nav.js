@@ -8,7 +8,10 @@ export default function Nav () {
         color: #0C4763;
         width: 10%;
         padding-top: 10px;
-        text-decoration:none;
+        text-decoration: none;
+        &:focus, &:visited, &:link, &:active {
+            text-decoration: none;
+        }
         :hover {
             color: #0C4763;
             border-radius: 7%;
