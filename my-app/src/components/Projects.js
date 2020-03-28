@@ -90,7 +90,9 @@ const Desc = styled.div`
     top: 46%;
     left: 34%;
     height: 400px;
-    width: 40%;
+    width: 38%;
+    padding-top: 2.2%;
+    padding-left: 2%;
 `;
 
 const Projects = () => {
@@ -106,7 +108,7 @@ const Projects = () => {
                     <ModulePNG />
                 </Lambda>
                 <Desc>
-
+                    <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wse) was self-taught.</p>
                 </Desc>
             </TopWrap>
             <MiddleWrap>
