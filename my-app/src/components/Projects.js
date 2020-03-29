@@ -13,7 +13,7 @@ import Build2 from "./projects/Build2.js";
 import Unit7 from "./projects/Unit7.js";
 import Unit8 from "./projects/Unit8.js";
 import Unit9 from "./projects/Unit9.js";
-import ModulePNG from "./ProjectSVG.js";
+import Module from "./lambda.png";
 
 //styling
 import styled from "styled-components";
@@ -39,6 +39,7 @@ const Lambda = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top:3%;
     color: #1B286C;
     h3 {
         padding-right: 10%;
@@ -84,9 +85,8 @@ const UnitNine = styled.div``;
 
 const Desc = styled.div`
     position: absolute;
-    border: 1px solid black;
     font-size: .8rem;
-    top: 39.5%;
+    top: 40%;
     left: 38%;
     height: 300px;
     width: 29%;
@@ -104,8 +104,10 @@ const Projects = () => {
                 </Title>
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
-                    <ModulePNG />
-                </Lambda>\
+                    <div>
+                    <img src={Module}/>
+                    </div>
+                </Lambda>
                 <Desc>
                     <Fade right>
                     <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wise) was self-taught.</p>
