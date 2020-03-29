@@ -23,11 +23,11 @@ const Title = styled.div`
     display: flex;
     flex-flow: column nowrap;
     position: absolute;
-    left: 40%;
+    left: 38%;
     text-align: center;
     width: 20%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 15.5%;
     padding-left: 2%;
     padding-right: 2%;
     background: transparent;
@@ -69,9 +69,16 @@ const Button = styled.button`
   }
 `;
 
-const TitleWrap = styled.div`
-  border: 1px solid green;
-  width: 70%;
+const Button1 = styled.div`
+    position: absolute;
+    left: 10%;
+    top: 58%;
+`;
+
+const Button2 = styled.div`
+  position: absolute;
+  right: 10%;
+  top: 58%;
 `;
 
 //PARTICLES JS ANIMATION
@@ -112,8 +119,12 @@ const Home = () => {
         </Title>
       </Typist>
     <ButtonWrap>
+      <Button1>
         <Button onClick={toProjects}>Projects</Button>
-      <Button onClick={toAbout}>About Me</Button>
+      </Button1>
+      <Button2>
+        <Button onClick={toAbout}>About Me</Button>
+      </Button2>
     </ButtonWrap>
     </HomeDiv>
   );
