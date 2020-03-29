@@ -96,10 +96,6 @@ const Home = () => {
     history.push('/about')
   }
 
-  const toResume = () => {
-    history.push('/resume')
-  }
-
   return (
     <HomeDiv>
     <Nav />
@@ -117,7 +113,6 @@ const Home = () => {
       </Typist>
     <ButtonWrap>
         <Button onClick={toProjects}>Projects</Button>
-      <Button onClick={toResume}>My Resume</Button>
       <Button onClick={toAbout}>About Me</Button>
     </ButtonWrap>
     </HomeDiv>
