@@ -23,11 +23,11 @@ const Title = styled.div`
     display: flex;
     flex-flow: column nowrap;
     position: absolute;
-    left: 40%;
+    left: 38%;
     text-align: center;
     width: 20%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 15.5%;
     padding-left: 2%;
     padding-right: 2%;
     background: transparent;
@@ -69,9 +69,16 @@ const Button = styled.button`
   }
 `;
 
-const TitleWrap = styled.div`
-  border: 1px solid green;
-  width: 70%;
+const Button1 = styled.div`
+    position: absolute;
+    left: 10%;
+    top: 65%;
+`;
+
+const Button2 = styled.div`
+  position: absolute;
+  right: 10%;
+  top: 65%;
 `;
 
 //PARTICLES JS ANIMATION
@@ -96,10 +103,6 @@ const Home = () => {
     history.push('/about')
   }
 
-  const toResume = () => {
-    history.push('/resume')
-  }
-
   return (
     <HomeDiv>
     <Nav />
@@ -114,11 +117,15 @@ const Home = () => {
           <h1>Carl Sachs</h1>
           <h2>Full-Stack Web Developer</h2>
         </Title>
-      </Typist>
+        </Typist>
+
     <ButtonWrap>
+      <Button1>
         <Button onClick={toProjects}>Projects</Button>
-      <Button onClick={toResume}>My Resume</Button>
-      <Button onClick={toAbout}>About Me</Button>
+      </Button1>
+      <Button2>
+        <Button onClick={toAbout}>About Me</Button>
+      </Button2>
     </ButtonWrap>
     </HomeDiv>
   );

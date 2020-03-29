@@ -13,7 +13,7 @@ import Build2 from "./projects/Build2.js";
 import Unit7 from "./projects/Unit7.js";
 import Unit8 from "./projects/Unit8.js";
 import Unit9 from "./projects/Unit9.js";
-import ModulePNG from "./ProjectSVG.js";
+import Module from "./lambda.png";
 
 //styling
 import styled from "styled-components";
@@ -39,6 +39,7 @@ const Lambda = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top:3%;
     color: #1B286C;
     h3 {
         padding-right: 10%;
@@ -46,8 +47,6 @@ const Lambda = styled.div`
         font-size: 1rem;
     }
 `;
-
-const MiddleWrap = styled.div``;
 
 const BottomWrap = styled.div`
     display: flex;
@@ -86,12 +85,13 @@ const UnitNine = styled.div``;
 
 const Desc = styled.div`
     position: absolute;
-    top: 46%;
-    left: 34%;
-    height: 400px;
-    width: 38%;
-    padding-top: 2.2%;
-    padding-left: 2%;
+    font-size: .8rem;
+    top: 40%;
+    left: 38%;
+    height: 280px;
+    width: 28%;
+    padding-top: 2%;
+    padding-left: 3%;
 `;
 
 const Projects = () => {
@@ -104,20 +104,19 @@ const Projects = () => {
                 </Title>
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
-                    <ModulePNG />
-                </Lambda>\
+                    <div>
+                    <img src={Module}/>
+                    </div>
+                </Lambda>
                 <Desc>
                     <Fade right>
                     <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wise) was self-taught.</p>
                     </Fade>
                 </Desc>
             </TopWrap>
-            <MiddleWrap>
-
-            </MiddleWrap>
             <BottomWrap>
                 <ProTitles>
-                    <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I think I've forgotten how to make the Old Fashioned.</h3>
+                    <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I sometimes think the next Facebook is just a few ideas away.</h3>
                 </ProTitles>
                 <UnitOne>
                     <Fade bottom>
