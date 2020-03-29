@@ -47,8 +47,6 @@ const Lambda = styled.div`
     }
 `;
 
-const MiddleWrap = styled.div``;
-
 const BottomWrap = styled.div`
     display: flex;
     flex-direction: column;
@@ -86,10 +84,12 @@ const UnitNine = styled.div``;
 
 const Desc = styled.div`
     position: absolute;
-    top: 46%;
-    left: 34%;
-    height: 400px;
-    width: 38%;
+    border: 1px solid black;
+    font-size: .8rem;
+    top: 39.5%;
+    left: 38%;
+    height: 300px;
+    width: 29%;
     padding-top: 2.2%;
     padding-left: 2%;
 `;
@@ -112,9 +112,6 @@ const Projects = () => {
                     </Fade>
                 </Desc>
             </TopWrap>
-            <MiddleWrap>
-
-            </MiddleWrap>
             <BottomWrap>
                 <ProTitles>
                     <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I think I've forgotten how to make the Old Fashioned.</h3>
