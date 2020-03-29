@@ -72,13 +72,13 @@ const Button = styled.button`
 const Button1 = styled.div`
     position: absolute;
     left: 10%;
-    top: 58%;
+    top: 65%;
 `;
 
 const Button2 = styled.div`
   position: absolute;
   right: 10%;
-  top: 58%;
+  top: 65%;
 `;
 
 //PARTICLES JS ANIMATION
@@ -117,7 +117,8 @@ const Home = () => {
           <h1>Carl Sachs</h1>
           <h2>Full-Stack Web Developer</h2>
         </Title>
-      </Typist>
+        </Typist>
+
     <ButtonWrap>
       <Button1>
         <Button onClick={toProjects}>Projects</Button>

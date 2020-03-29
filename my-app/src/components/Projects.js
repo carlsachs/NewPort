@@ -88,10 +88,10 @@ const Desc = styled.div`
     font-size: .8rem;
     top: 40%;
     left: 38%;
-    height: 300px;
-    width: 29%;
-    padding-top: 2.2%;
-    padding-left: 2%;
+    height: 280px;
+    width: 28%;
+    padding-top: 2%;
+    padding-left: 3%;
 `;
 
 const Projects = () => {
@@ -116,7 +116,7 @@ const Projects = () => {
             </TopWrap>
             <BottomWrap>
                 <ProTitles>
-                    <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I think I've forgotten how to make the Old Fashioned.</h3>
+                    <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I sometimes think the next Facebook is just a few ideas away.</h3>
                 </ProTitles>
                 <UnitOne>
                     <Fade bottom>
