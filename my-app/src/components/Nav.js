@@ -25,9 +25,8 @@ export default function Nav () {
         text-align: center;
         justify-content: space-evenly;
         position: absolute;
-        width: 100%;
-        height: 50px;
-        margin: 0 auto;
+        width:95%;
+        height: 40px;
         margin-top: 2%;
     `;
     return (
@@ -36,6 +35,7 @@ export default function Nav () {
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
                     <StyledLink to="/about">About Me</StyledLink>
+                    <StyledLink to="/contact">Contact Me</StyledLink>
             </NavWrap>
         </header>
     )
