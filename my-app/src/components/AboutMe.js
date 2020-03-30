@@ -12,6 +12,7 @@ import coach from "./coach.jpg";
 //STYLING
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
+import Typist from "react-typist"
 
 //STYLED COMPONENTS
 
@@ -32,6 +33,12 @@ const TopSec = styled.div`
 const MiddleSec = styled.div`
     h2 {
         text-align: center;
+        margin-top: 2%;
+    }
+    p {
+        text-align: center;
+        padding-right: 3%;
+        padding-left: 3%;
         margin-top: 2%;
     }
 `;
@@ -61,7 +68,9 @@ const AboutMe = () => {
             </Top>
             <TopSec>
                 <Title>About Me</Title>
+                <Fade right>
                 <a href="https://www.linkedin.com/in/carl-sachs/">Check out my Resume</a>
+                </Fade>
                 <Picture>
                     <img src={rencen} />
                     <img src={coach} />
