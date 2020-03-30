@@ -4,6 +4,10 @@ import React from "react";
 import Nav from "./Nav.js";
 import Profile from "../images/Profile.png";
 
+//import images
+import rencen from "./rencen.jpg"
+import rencendark from "./rencendark.jpg"
+
 //STYLING
 import styled from "styled-components";
 import Fade from "react-reveal";
@@ -12,23 +16,23 @@ import Fade from "react-reveal";
 
 const Top = styled.div`
     display: flex;
+    width: 100%;
+`;
+
+const TopSec = styled.div`
+    a {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
 `;
 
 const Title = styled.div`
     display: flex;
-    border: 1px solid black;
     justify-content: center;
     margin-top: 8%;
     font-size: 2rem;
     padding: 1%;
-`;
-
-const Description = styled.div`
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    margin-top 1%;
-    font-size: 1.2rem;
 `;
 
 const Picture = styled.div`
@@ -36,7 +40,7 @@ const Picture = styled.div`
     justify-content: center;
     margin-top: 3%;
     img {
-        border-radius: 50%;
+        height: 400px;
     }
 `;
 
@@ -46,15 +50,14 @@ const AboutMe = () => {
         <Top>
             <Nav />
         </Top>
-        <div>
+        <TopSec>
             <Title>About Me</Title>
-            <Description>
-                Scroll to find out about my journey before Lambda School, and to get a glimpse of what I learned going through Lambda.
-            </Description>
+            <a href="https://www.linkedin.com/in/carl-sachs/">Check out my Resume</a>
             <Picture>
-                <img src={Profile} />
+                <img src={rencen} />
+                <img src={rencendark} />
             </Picture>
-        </div>
+        </TopSec>
         </div>
     )
 

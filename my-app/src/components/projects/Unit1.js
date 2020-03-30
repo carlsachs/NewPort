@@ -11,14 +11,13 @@ import styled from "styled-components";
 
 const Card = styled.div`
     width: 80%;
-    background-color: #white;
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
     margin-top: 3%;
     margin-bottom: 3%;
-    background: rgb(53,149,255);
-    background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
+    background: rgb(23,91,29);
+    background: radial-gradient(circle, rgba(23,91,29,0.8015581232492998) 0%, rgba(8,94,37,0.5354516806722689) 100%);
     box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
     `;
 
