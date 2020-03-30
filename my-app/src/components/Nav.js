@@ -7,7 +7,7 @@ export default function Nav () {
     const StyledLink = styled(Link)`
         color: #0C4763;
         width: 10%;
-        padding-top: 12px;
+        padding-top: 10px;
         text-decoration: none;
         &:focus, &:visited, &:link, &:active {
             text-decoration: none;
@@ -25,9 +25,8 @@ export default function Nav () {
         text-align: center;
         justify-content: space-evenly;
         position: absolute;
-        width: 100%;
-        height: 50px;
-        margin: 0 auto;
+        width:95%;
+        height: 40px;
         margin-top: 2%;
     `;
     return (
