@@ -36,6 +36,10 @@ const Title = styled.h1`
     margin-top: 8%;
 `;
 
+const Middle = styled.div`
+    
+`;
+
 const Contact = () => {
     return (
         <Wrap>
@@ -47,6 +51,9 @@ const Contact = () => {
                 <img src={drib} />
                 <a href="https://twitter.com/CarlSachs3"><img src={twit} /></a>
             </Cont>
+            <Middle>
+
+            </Middle>
         </Wrap>
     )
 }
