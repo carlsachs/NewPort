@@ -3,13 +3,18 @@ import React from "react";
 //import components
 import Nav from "./Nav";
 
+//import images/icons
+import face from "./face.png";
+import drib from "./drib.png";
+import twit from "./twit.png";
+import link from "./link.png";
+
 //styling
 import styled from "styled-components";
 
 const Wrap = styled.div`
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     width: 100%;
     h1 {
     }
@@ -17,8 +22,11 @@ const Wrap = styled.div`
 
 const Cont = styled.div`
     margin: 0 auto;
-    margin-top: 20%;
-    border: 1px solid black;
+    margin-top: 5%;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 `;
 
 const Title = styled.h1`
@@ -26,7 +34,6 @@ const Title = styled.h1`
     width: 100%;
     justify-content: center;
     margin-top: 8%;
-    border: 1px solid blue;
 `;
 
 const Contact = () => {
@@ -35,12 +42,10 @@ const Contact = () => {
             <Nav />   
                 <Title>Contact</Title>
             <Cont>
-                <form>
-                    <input 
-                    name="name"
-                    placeholder="name"
-                    />
-                </form>
+                <a href="https://www.linkedin.com/in/carl-sachs-198780141/"><img src={link} /></a>
+                <a href="https://www.facebook.com/carl.sachs"><img src={face} /></a>
+                <img src={drib} />
+                <a href="https://twitter.com/CarlSachs3"><img src={twit} /></a>
             </Cont>
         </Wrap>
     )
