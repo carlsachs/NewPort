@@ -23,7 +23,6 @@ const Wrap = styled.div`
 const Cont = styled.div`
     margin: 0 auto;
     margin-top: 5%;
-    border: 1px solid red;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +36,7 @@ const Title = styled.h1`
 `;
 
 const Middle = styled.div`
-    
+
 `;
 
 const Contact = () => {
