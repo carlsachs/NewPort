@@ -6,7 +6,6 @@ import Footer from "./Footer.js";
 
 //import images/icons
 import face from "./face.png";
-import drib from "./drib.png";
 import twit from "./twit.png";
 import link from "./link.png";
 
@@ -77,6 +76,7 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
+            <Footer />
         </Wrap>
     )
 }

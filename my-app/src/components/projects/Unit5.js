@@ -208,7 +208,7 @@ const Unit5 = () => {
                     <Flex>
                         <h3>NASA Photo of Day</h3>
                         <a href='https://github.com/carlsachs/nasa-photo-of-the-day'>Github Repo</a>
-                        <img src={NASA} alt="Nasa photo of day"/>
+                        <img src={NASA} alt="Nasa of day"/>
                     </Flex>
                 </Left>
                 <Middle>

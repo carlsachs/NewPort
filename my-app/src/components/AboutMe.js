@@ -2,7 +2,6 @@ import React from "react";
 
 //IMPORTING COMPONENTS
 import Nav from "./Nav.js";
-import Profile from "../images/Profile.png";
 
 //import images
 import rencen from "./rencen.jpg";
@@ -12,7 +11,6 @@ import coach from "./coach.jpg";
 //STYLING
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
-import Typist from "react-typist"
 
 //STYLED COMPONENTS
 
