@@ -70,11 +70,13 @@ const Card = styled.div`
         margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
+        background: rgb(23,69,91);
+background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
-            margin-top: 10%;
-            margin-bottom: 10%;
+            margin-top: 20%;
+            margin-bottom:18%;
         }
         img {
             height: 150px;
@@ -84,8 +86,8 @@ const Card = styled.div`
             margin-bottom: 20%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 80%;
-            height: 50px;
+            width: 100%;
+            height: 35px;
             text-align: center;
             padding-top: 5%;
             border-radius: 5%;
@@ -103,6 +105,8 @@ const Card = styled.div`
     margin-right: 5%;
     margin-bottom: 2%;
     padding-bottom: 5%;
+    background: rgb(23,69,91);
+    background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     h3 {
         margin: 0 auto;
