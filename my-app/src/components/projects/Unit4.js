@@ -67,7 +67,7 @@ const Card = styled.div`
         display: flex;
         width: 40%;
         justify-content: space-evenly;
-        margin-bottom: 4%;
+        margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -102,8 +102,8 @@ const Card = styled.div`
     justify-content: space-evenly;
     margin-top: 2%;
     margin-right: 5%;
-    margin-bottom: 4%;
-    padding-bottom: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     h3 {
         margin: 0 auto;
