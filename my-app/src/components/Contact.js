@@ -3,6 +3,7 @@ import React from "react";
 //import components
 import Nav from "./Nav";
 import Footer from "./Footer.js";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 //import images/icons
 import face from "./face.png";
@@ -57,6 +58,12 @@ const Middle = styled.div`
 const Contact = () => {
     return (
         <Wrap>
+        <div>
+        <MessengerCustomerChat
+        pageId="227644161625177"
+        appId="101617714837948"
+      />
+        </div>
             <Nav />   
                 <Title>Contact</Title>
             <Cont>
@@ -76,7 +83,9 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
-            <Footer />
+            <div>
+                <Footer />
+            </div>
         </Wrap>
     )
 }

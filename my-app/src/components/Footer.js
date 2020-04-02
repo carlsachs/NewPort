@@ -6,8 +6,8 @@ import styled from "styled-components";
 //Styled components
 const Wrap = styled.div`
     width: 100%;
-    background-color: blue;
-    height: 400px;
+    background-color: lightblue;
+    height: 100px;
 `;
 
 const Footer = () => {
