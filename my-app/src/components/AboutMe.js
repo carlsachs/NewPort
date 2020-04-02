@@ -79,6 +79,7 @@ const AboutMe = () => {
                     <a href="https://www.linkedin.com/in/carl-sachs/">Check out my Resume</a>
                 </Fade>
                 <Picture>
+                <p>p</p>
                     <img src={rencen} />
                     <img src={coach} />
                     <img src={rencendark} />
