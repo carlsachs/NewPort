@@ -2,7 +2,7 @@ import React from "react";
 
 //import components
 import Nav from "./Nav";
-import Footer from "./"
+import Footer from "./Footer.js";
 
 //import images/icons
 import face from "./face.png";
