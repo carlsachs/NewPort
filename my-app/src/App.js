@@ -8,9 +8,6 @@ import Projects from "./components/Projects.js";
 import AboutMe from "./components/AboutMe.js";
 import Contact from "./components/Contact.js";
 
-//styling
-import styled from "styled-components";
-
 function App() {
   return (
     <Router>
