@@ -208,21 +208,21 @@ const Unit3 = () => {
                     <Flex>
                         <h3>Functions, Arr, and Obj</h3>
                         <a href='https://github.com/carlsachs/JS-Exercise-Functions-Arrays-Objects'>Github Repo</a>
-                        <img src={JS1}/>
+                        <img src={JS1} alt="Javascript project picture"/>
                     </Flex>
                 </Left>
                 <Middle>
                 <Flex2>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge--JavaScript'>Github Repo</a>
-                    <img src={JSsprint}/>
+                    <img src={JSsprint} alt="javascript sprint picture"/>
                 </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>Classes</h3>
                     <a href='https://github.com/carlsachs/JS-Exercise-Classes'>Github Repo</a>
-                    <img src={JS2}/>
+                    <img src={JS2} alt="javascript highlight project 2 picture"/>
                 </Flex1>
             </Right>
             </High>
