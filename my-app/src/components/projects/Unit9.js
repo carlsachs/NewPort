@@ -154,14 +154,14 @@ import styled from "styled-components";
         h3 {
             margin: 0 auto;
             margin-top: 12%;
-            margin-bottom: 12%;
+            margin-bottom: 15%;
         }
         img {
             height: 150px;
         }
         a {
             margin: 0 auto;
-            margin-bottom: 10%;
+            margin-bottom: 15%;
             text-decoration: none;
             border: 1px solid #0B1654;
             width: 100%;
