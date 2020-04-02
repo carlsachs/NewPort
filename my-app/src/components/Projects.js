@@ -105,7 +105,7 @@ const Projects = () => {
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
                     <div>
-                    <img src={Module}/>
+                    <img src={Module} alt="module breakdown chart"/>
                     </div>
                 </Lambda>
                 <Desc>
