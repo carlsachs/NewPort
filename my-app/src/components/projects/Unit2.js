@@ -14,7 +14,7 @@ const Card = styled.div`
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 3%;
     background: rgb(53,149,255);
     background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
@@ -35,7 +35,7 @@ const Card = styled.div`
         justify-content: space-between;
         width: 100%;
         color: #303D84;
-        margin-top: 3%;
+        margin-top: 2%;
         h3 {
             text-align: center;
             margin-left: 30%;
