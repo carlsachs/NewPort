@@ -75,7 +75,7 @@ const AboutMe = () => {
             </Top>
             <TopSec>
                 <Title>About Me</Title>
-                <Fade right>
+                <Fade left>
                     <a href="https://www.linkedin.com/in/carl-sachs/">Check out my Resume</a>
                 </Fade>
                 <Picture>

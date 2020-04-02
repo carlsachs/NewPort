@@ -36,7 +36,23 @@ const Title = styled.h1`
 `;
 
 const Middle = styled.div`
-
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 10%;
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 auto;
+    }
+    label {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
 `;
 
 const Contact = () => {
@@ -50,7 +66,16 @@ const Contact = () => {
                 <a href="https://twitter.com/CarlSachs3"><img src={twit} /></a>
             </Cont>
             <Middle>
-
+                <form action="https://formspree.io/xaydyeaa" method="POST">
+                    <label> Name:</label>
+                        <input type="text" name="name" required/>
+                    <label> Email:</label>
+                        <input type="email" name="_replyto" required/>
+                    <label>Phone:</label>
+                        <input type="tel" name="phone"/>
+                        <label></label>
+                    <input type="submit" value="Send" />
+                </form>
             </Middle>
         </Wrap>
     )
