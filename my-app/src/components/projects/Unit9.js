@@ -16,8 +16,8 @@ import styled from "styled-components";
         display: flex;
         flex-flow: column nowrap;
         margin: 0 auto;
-        margin-top: 3%;
-        margin-bottom: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
@@ -37,7 +37,7 @@ import styled from "styled-components";
         justify-content: space-between;
         width: 100%;
         color: #303D84;
-        margin-top: 3%;
+        margin-top: 2%;
         h3 {
             text-align: center;
             margin-left: 30%;
@@ -50,7 +50,7 @@ import styled from "styled-components";
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
-        margin-bottom: 3%;
+        margin-bottom: 1%;
         color: #303D84;
     `;
 
@@ -69,7 +69,7 @@ import styled from "styled-components";
         display: flex;
         width: 30%;
         justify-content: space-evenly;
-        margin-bottom: 4%;
+        margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -86,13 +86,13 @@ import styled from "styled-components";
         }
         a {
             margin: 0 auto;
-            margin-bottom: 10%;
+            margin-bottom: 6%;
             text-decoration: none;
             border: 1px solid #0B1654;
-            width: 40%;
+            width: 60%;
             height: 35px;
             text-align: center;
-            padding-top: 2%;
+            padding-top: 3%;
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -106,14 +106,14 @@ import styled from "styled-components";
         justify-content: space-evenly;
         margin-top: 2%;
         margin-right: 5%;
-        margin-bottom: 4%;
-        padding-bottom: 5%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
         margin-left: 5%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
-            margin-top: 12%;
-            margin-bottom: 12%;
+            margin-top: 10%;
+            margin-bottom: 10%;
         }
         img {
             height: 150px;
@@ -128,7 +128,7 @@ import styled from "styled-components";
             width: 60%;
             height: 35px;
             text-align: center;
-            padding-top: 5%;
+            padding-top: 4%;
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -142,8 +142,8 @@ import styled from "styled-components";
         justify-content: space-evenly;
         margin-top: 2%;
         margin-right: 5%;
-        margin-bottom: 4%;
-        padding-bottom: 5%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
@@ -155,13 +155,13 @@ import styled from "styled-components";
         }
         a {
             margin: 0 auto;
-            margin-bottom: 12%;
+            margin-bottom: 10%;
             text-decoration: none;
             border: 1px solid #0B1654;
             width: 100%;
             height: 35px;
             text-align: center;
-            padding-top: 5%;
+            padding-top: 4%;
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -211,7 +211,7 @@ const Unit9 = () => {
                 </Left>
                 <Middle>
                     <Flex2>
-                        <h3>Sprint Challenge - Bubbles</h3>
+                        <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/react-bubbles'>Github Repo</a>
                         <img src={Bubbles}/>
                     </Flex2>
