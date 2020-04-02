@@ -39,15 +39,19 @@ const Middle = styled.div`
     display: flex;
     margin: 0 auto;
     margin-top: 5%;
+    margin-bottom: 5%;
+    width: 10%;
     form {
         display: flex;
         flex-flow: column nowrap;
+        margin: 0 auto;
     }
     label {
         display: flex;
         flex-flow: column nowrap;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 15%;
+        margin-bottom: 10%;
     }
 `;
 
@@ -63,15 +67,13 @@ const Contact = () => {
             </Cont>
             <Middle>
                 <form action="https://formspree.io/xaydyeaa" method="POST">
-                    <label> Name:
-                        <input type="text" name="name"/>
-                    </label>
-                    <label> Email:
-                        <input type="email" name="_replyto"/>
-                    </label>
-                    <label>Message:
-                        <textarea type="text" name="message"/>
-                    </label>
+                    <label> Name:</label>
+                        <input type="text" name="name" required/>
+                    <label> Email:</label>
+                        <input type="email" name="_replyto" required/>
+                    <label>Phone:</label>
+                        <input type="tel" name="phone"/>
+                        <label></label>
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
