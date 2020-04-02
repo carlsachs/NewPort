@@ -208,21 +208,21 @@ const Unit5 = () => {
                     <Flex>
                         <h3>NASA Photo of Day</h3>
                         <a href='https://github.com/carlsachs/nasa-photo-of-the-day'>Github Repo</a>
-                        <img src={NASA}/>
+                        <img src={NASA} alt="Nasa photo of day picture"/>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
                         <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/Sprint-Challenge-React-Wars'>Github Repo</a>
-                        <img src={Wars}/>
+                        <img src={Wars} alt="React Wars Sprint Picture"/>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>Instagram Clone</h3>
                     <a href='https://github.com/LambdaSchool/React-Components-Insta-Clone'>Github Repo</a>
-                    <img src={Insta}/>
+                    <img src={Insta} alt="Instagram clone picture"/>
                 </Flex1>
             </Right>
             </High>

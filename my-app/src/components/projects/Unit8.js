@@ -168,14 +168,14 @@ const Unit8 = () => {
                     <Flex>
                         <h3>Car Sales</h3>
                         <a href='https://github.com/carlsachs/Car-Sales'>Github Repo</a>
-                        <img src={Cars}/>
+                        <img src={Cars} alt="Car sales project picture"/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
                     <h3>Sprint Challenge - Smurfs</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge-State-Management-Smurfs'>Github Repo</a>
-                    <img src={Smurfs}/>
+                    <img src={Smurfs} alt="Smurfs sprint challenge picture"/>
                 </Flex1>
             </Right>
             </High>

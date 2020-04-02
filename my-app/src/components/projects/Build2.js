@@ -75,16 +75,16 @@ const Build2 = () => {
     return (
         <Card>
             <StarDiv>
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
+                <img src={star} alt="star"/>
+                <img src={star} alt ="star"/>
+                <img src={star} alt ="star"/>
+                <img src={star} alt ="star"/>
+                <img src={star} alt ="star"/>
             </StarDiv>
             <Title>Build: React</Title>
             <h2>Task:</h2>
             <h3>Create the front-end for a cannabis consumer application.</h3>
-            <img src={med}/>
+            <img src={med} alt="med-cabinet-home"/>
             <a href="https://github.com/bw-med-cabinet-3/Front-End">Github Repo</a>
             <a href="https://med-cabinet-3.now.sh/">Deployed Site</a>
         </Card>

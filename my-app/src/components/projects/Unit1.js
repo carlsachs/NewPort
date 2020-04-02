@@ -162,14 +162,14 @@ const Unit1 = () => {
                     <Flex>
                         <h3>FlexBox</h3>
                         <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox}/>
+                        <img src={Flexbox} alt="FlexBox Project Picture"/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
-                    <img src={Sprint1}/>
+                    <img src={Sprint1} alt="First sprint homepage"/>
                 </Flex1>
             </Right>
             </High>

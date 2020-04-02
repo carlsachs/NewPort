@@ -80,9 +80,9 @@ const AboutMe = () => {
                 </Fade>
                 <Picture>
                 <p>p</p>
-                    <img src={rencen} />
-                    <img src={coach} />
-                    <img src={rencendark} />
+                    <img src={rencen} alt="ren cen night detroit river"/>
+                    <img src={coach} alt="coach insignia top floor"/>
+                    <img src={rencendark} alt="ren cen night detroit"/>
                 </Picture>
             </TopSec>
         <MiddleSec>
