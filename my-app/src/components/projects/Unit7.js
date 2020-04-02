@@ -15,8 +15,8 @@ const Card = styled.div`
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     background: rgb(53,149,255);
     background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
     box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
@@ -36,7 +36,7 @@ const Card = styled.div`
         justify-content: space-between;
         width: 100%;
         color: #303D84;
-        margin-top: 3%;
+        margin-top: 2%;
         h3 {
             text-align: center;
             margin-left: 30%;
@@ -49,7 +49,7 @@ const Card = styled.div`
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
-        margin-bottom: 3%;
+        margin-bottom: 1%;
         color: #303D84;
     `;
 
@@ -67,7 +67,7 @@ const Card = styled.div`
         display: flex;
         width: 40%;
         justify-content: space-evenly;
-        margin-bottom: 4%;
+        margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -81,13 +81,13 @@ const Card = styled.div`
         }
         a {
             margin: 0 auto;
-            margin-bottom: 10%;
+            margin-bottom: 8%;
             text-decoration: none;
             border: 1px solid #0B1654;
             width: 80%;
             height: 35px;
             text-align: center;
-            padding-top: 5%;
+            padding-top: 4%;
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -101,8 +101,8 @@ const Card = styled.div`
     justify-content: space-evenly;
     margin-top: 2%;
     margin-right: 5%;
-    margin-bottom: 4%;
-    padding-bottom: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     h3 {
         margin: 0 auto;
@@ -115,6 +115,7 @@ const Card = styled.div`
     a {
         margin: 0 auto;
         margin-bottom: 12%;
+        margin-top: 1%;
         text-decoration: none;
         border: 1px solid #0B1654;
         width: 100%;
