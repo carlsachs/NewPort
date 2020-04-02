@@ -86,7 +86,7 @@ const UnitNine = styled.div``;
 const Desc = styled.div`
     position: absolute;
     font-size: .8rem;
-    top: 40%;
+    top: 39%;
     left: 38%;
     height: 280px;
     width: 28%;

@@ -39,7 +39,6 @@ const Middle = styled.div`
     display: flex;
     margin: 0 auto;
     margin-top: 5%;
-    margin-bottom: 5%;
     width: 10%;
     form {
         display: flex;
