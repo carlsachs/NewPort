@@ -215,7 +215,7 @@ const Unit6 = () => {
                     <Flex>
                         <h3>Movies</h3>
                         <a href='https://github.com/LambdaSchool/React-Router-Movies'>Github Repo</a>
-                        <img src={movies} alt="React-router movies project picture"/>
+                        <img src={movies} alt="React-router movies project"/>
                     </Flex>
                 </Left>
                 <Middle>
@@ -229,7 +229,7 @@ const Unit6 = () => {
                 <Flex1>
                     <h3>Add a Member</h3>
                     <a href='https://github.com/carlsachs/team-builder'>Github Repo</a>
-                    <img src={notes} alt="add a member project picture"/>
+                    <img src={notes} alt="add a member projecte"/>
                 </Flex1>
             </Right>
             </High>

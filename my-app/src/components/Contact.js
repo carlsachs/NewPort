@@ -61,9 +61,9 @@ const Contact = () => {
             <Nav />   
                 <Title>Contact</Title>
             <Cont>
-                <a href="https://www.linkedin.com/in/carl-sachs-198780141/"><img src={link} alt="linkedin Logo"/></a>
-                <a href="https://www.facebook.com/carl.sachs"><img src={face} alt="facebook logo"/></a>
-                <a href="https://twitter.com/CarlSachs3"><img src={twit} alt="twitter logo"/></a>
+                <a href="https://www.linkedin.com/in/carl-sachs-198780141/"><img src={link} alt="linkedin"/></a>
+                <a href="https://www.facebook.com/carl.sachs"><img src={face} alt="facebook"/></a>
+                <a href="https://twitter.com/CarlSachs3"><img src={twit} alt="twitter"/></a>
             </Cont>
             <Middle>
                 <form action="https://formspree.io/xaydyeaa" method="POST">
