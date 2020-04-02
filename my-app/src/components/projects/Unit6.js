@@ -72,6 +72,8 @@ import styled from "styled-components";
         margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
+        background: rgb(23,69,91);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
@@ -107,6 +109,8 @@ import styled from "styled-components";
         margin-bottom: 2%;
         padding-bottom: 2%;
         margin-left: 5%;
+        background: rgb(23,69,91);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
@@ -142,6 +146,8 @@ import styled from "styled-components";
         margin-right: 5%;
         margin-bottom: 2%;
         padding-bottom: 2%;
+        background: rgb(23,69,91);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
