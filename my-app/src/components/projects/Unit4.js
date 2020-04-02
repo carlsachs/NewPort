@@ -172,7 +172,7 @@ const Unit4 = () => {
                 <Flex1>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge-Applied-Javascript'>Github Repo</a>
-                    <img src={AJSSprint} alt="advanced js aprint picture"/>
+                    <img src={AJSSprint} alt="advanced js sprint picture"/>
                 </Flex1>
             </Right>
             </High>

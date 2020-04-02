@@ -215,21 +215,21 @@ const Unit6 = () => {
                     <Flex>
                         <h3>Movies</h3>
                         <a href='https://github.com/LambdaSchool/React-Router-Movies'>Github Repo</a>
-                        <img src={movies}/>
+                        <img src={movies} alt="React-router movies project picture"/>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
                         <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/react-american-football-scoreboard'>Github Repo</a>
-                        <img src={scoreboard}/>
+                        <img src={scoreboard} alt="react sprint project"/>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>Add a Member</h3>
                     <a href='https://github.com/carlsachs/team-builder'>Github Repo</a>
-                    <img src={notes}/>
+                    <img src={notes} alt="add a member project picture"/>
                 </Flex1>
             </Right>
             </High>
