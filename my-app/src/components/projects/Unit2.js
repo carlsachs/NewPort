@@ -66,7 +66,7 @@ const Card = styled.div`
         display: flex;
         width: 30%;
         justify-content: space-evenly;
-        margin-bottom: 2;
+        margin-bottom: 2%;
         margin-left: 5%;
         margin-top: 2%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
