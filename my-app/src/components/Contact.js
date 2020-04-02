@@ -47,7 +47,6 @@ const Contact = () => {
             <Cont>
                 <a href="https://www.linkedin.com/in/carl-sachs-198780141/"><img src={link} /></a>
                 <a href="https://www.facebook.com/carl.sachs"><img src={face} /></a>
-                <img src={drib} />
                 <a href="https://twitter.com/CarlSachs3"><img src={twit} /></a>
             </Cont>
             <Middle>
