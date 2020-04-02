@@ -212,21 +212,21 @@ const Unit9 = () => {
                     <Flex>
                         <h3>Simple Login w/ Routes</h3>
                         <a href='https://github.com/carlsachs/Auth-Friends'>Github Repo</a>
-                        <img src={Login} alt="login project picture"/>
+                        <img src={Login} alt="login project"/>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
                         <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/react-bubbles'>Github Repo</a>
-                        <img src={Bubbles} alt="react bubbles sprint picture"/>
+                        <img src={Bubbles} alt="react bubbles sprint"/>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>HTTP Movies</h3>
                     <a href='https://github.com/carlsachs/HTTP-Movies-Assignment'>Github Repo</a>
-                    <img src={Movies} alt="movies #2 picture"/>
+                    <img src={Movies} alt="movies #2"/>
                 </Flex1>
             </Right>
             </High>

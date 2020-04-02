@@ -162,7 +162,7 @@ const Unit1 = () => {
                     <Flex>
                         <h3>FlexBox</h3>
                         <a href='https://github.com/carlsachs/UI-III-Flexbox'>Github Repo</a>
-                        <img src={Flexbox} alt="FlexBox Project Picture"/>
+                        <img src={Flexbox} alt="FlexBox Project"/>
                     </Flex>
                 </Left>
                 <Right>

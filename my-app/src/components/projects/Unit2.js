@@ -204,21 +204,21 @@ const Unit2 = () => {
                     <Flex>
                         <h3>Preprocessing I</h3>
                         <a href='https://github.com/carlsachs/Preprocessing-I'>Github Repo</a>
-                        <img src={Advanced1} alt="advanced CSS project picture"/>
+                        <img src={Advanced1} alt="advanced CSS project"/>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
                         <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/Sprint-Challenge--Advanced-CSS'>Github Repo</a>
-                        <img src={Carlos} alt="Spring challenge css picture"/>
+                        <img src={Carlos} alt="Spring challenge css"/>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>Preprocessing II</h3>
                     <a href='https://github.com/carlsachs/Preprocessing-II'>Github Repo</a>
-                    <img src={FunBus} alt="FunBus Homepage picture"/>
+                    <img src={FunBus} alt="FunBus Homepage"/>
                 </Flex1>
             </Right>
             </High>

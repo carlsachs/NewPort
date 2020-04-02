@@ -164,14 +164,14 @@ const Unit7 = () => {
                     <Flex>
                         <h3>React To-Do</h3>
                         <a href='https://github.com/carlsachs/React-Todo'>Github Repo</a>
-                        <img src={Todo} alt="react to-do picture"/>
+                        <img src={Todo} alt="react to-do"/>
                     </Flex>
                 </Left>
                 <Right>
                 <Flex1>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/LambdaSchool/Sprint-Challenge-Advanced-React'>Github Repo</a>
-                    <img src={Advanced} alt="advanced react sprint picture"/>
+                    <img src={Advanced} alt="advanced react sprint"/>
                 </Flex1>
             </Right>
             </High>
