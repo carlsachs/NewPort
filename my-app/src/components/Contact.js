@@ -49,9 +49,16 @@ const Contact = () => {
                 <a href="https://www.facebook.com/carl.sachs"><img src={face} /></a>
                 <a href="https://twitter.com/CarlSachs3"><img src={twit} /></a>
             </Cont>
-            <Middle>
-
-            </Middle>
+            <form action="https://formspree.io/xaydyeaa" method="POST">
+                <label> Name:
+                    <input type="text" name="name"/>
+                </label>
+                <label> Email:
+                    <input type="email" name="_replyto"/>
+                </label>
+                <input type="text" name="name" placeholder="Message:"/>
+                <input type="submit" value="Send" />
+                </form>
         </Wrap>
     )
 }
