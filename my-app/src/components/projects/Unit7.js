@@ -33,18 +33,20 @@ const Card = styled.div`
     const Focus = styled.div`
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         color: #303D84;
+        margin-left: 5%;
         margin-top: 2%;
+    `;
+
+    const FocTitle = styled.div`
         h3 {
-            text-align: center;
-            margin-left: 30%;
-        }
-        ul {
-            margin-right: 30%;
+            margin-top: 40%;
         }
     `;
+
+    const List = styled.div``;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -148,13 +150,17 @@ const Unit7 = () => {
         <Card>
             <Title>Unit 7: Web Fundamentals</Title>
             <Focus>
-                <h3>Focus:</h3>
-                <ul>
-                    <li>Class Components</li>
-                    <li>The React Lifecycle</li>
-                    <li>Events in Forms</li>
-                    <li>Testing Web Applications</li>
-                </ul>
+                <FocTitle>
+                    <h3>Focus:</h3>
+                </FocTitle>
+                <List>
+                    <ul>
+                        <li>Class Components</li>
+                        <li>The React Lifecycle</li>
+                        <li>Events in Forms</li>
+                        <li>Testing Web Applications</li>
+                    </ul>
+                </List>
             </Focus>
             <HighlightTitle>
                 <h2>Highlight Projects</h2>
