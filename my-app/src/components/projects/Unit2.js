@@ -32,18 +32,21 @@ const Card = styled.div`
     const Focus = styled.div`
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
-        width: 100%;
+        justify-content: space-evenly;
+        width: 80%;
         color: #303D84;
+        margin: 0 auto;
         margin-top: 2%;
+        margin-left: 15%;
+    `;
+
+    const FocTitle = styled.div`
         h3 {
-            text-align: center;
-            margin-left: 30%;
-        }
-        ul {
-            margin-right: 30%;
+            margin-top: 30%;
         }
     `;
+
+    const List = styled.div``;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -187,14 +190,18 @@ const Unit2 = () => {
         <Card>
             <Title>Unit 2: Advanced CSS</Title>
             <Focus>
-                <h3>Focus:</h3>
-                <ul>
-                    <li>Responsive Design</li>
-                    <li>LESS.css</li>
-                    <li>Parametric Mix-Ins/Nesting</li>
-                    <li>Incorporating Functions</li>
-                    <li>Media Queries</li>
-                </ul>
+                <FocTitle>
+                    <h3>Focus:</h3>
+                </FocTitle>
+                <List>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>LESS.css</li>
+                        <li>Parametric Mix-Ins/Nesting</li>
+                        <li>Incorporating Functions</li>
+                        <li>Media Queries</li>
+                    </ul>
+                </List>
             </Focus>
             <HighlightTitle>
                 <h2>Highlight Projects</h2>
