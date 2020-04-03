@@ -42,7 +42,7 @@ const Card = styled.div`
 
     const FocTitle = styled.div`
         h3 {
-            margin-top: 30%;
+            margin-top: 50%;
         }
     `;
 
