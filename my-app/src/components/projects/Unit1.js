@@ -32,19 +32,19 @@ const Card = styled.div`
     const Focus = styled.div`
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         color: #303D84;
         margin-top: 2%;
+    `;
+
+    const FocTitle = styled.div`
         h3 {
-            text-align: center;
-            margin-top: 2%;
-            margin-left: 30%;
-        }
-        ul {
-            margin-right: 30%;
+            margin-top: 30%;
         }
     `;
+
+    const List = styled.div``;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -71,7 +71,7 @@ const Card = styled.div`
         margin-left: 5%;
         margin-top: 2%;
         background: rgb(23,69,91);
-background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         h3 {
             margin: 0 auto;
@@ -98,38 +98,38 @@ background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8
     `;
 
     const Right = styled.div`
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 5%;
-    background: rgb(23,69,91);
-    background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    h3 {
-        margin: 0 auto;
-        margin-top: 12%;
-        margin-bottom: 12%;
-    }
-    img {
-        height: 150px;
-    }
-    a {
-        margin: 0 auto;
-        margin-bottom: 12%;
-        text-decoration: none;
-        border: 1px solid #0B1654;
-        width: 100%;
-        height: 35px;
-        text-align: center;
-        padding-top: 5%;
-        border-radius: 5%;
-        :hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        padding-bottom: 5%;
+        background: rgb(23,69,91);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        h3 {
+            margin: 0 auto;
+            margin-top: 12%;
+            margin-bottom: 12%;
         }
-    }
+        img {
+            height: 150px;
+        }
+        a {
+            margin: 0 auto;
+            margin-bottom: 12%;
+            text-decoration: none;
+            border: 1px solid #0B1654;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            padding-top: 5%;
+            border-radius: 5%;
+            :hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+        }
     `;
 
     const Flex = styled.div`
@@ -147,12 +147,16 @@ const Unit1 = () => {
         <Card>
             <Title>Unit 1: Web Fundamentals</Title>
             <Focus>
-                <h3>Focus:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>GitFlow</li>
-                </ul>
+                <FocTitle>
+                    <h3>Focus:</h3>
+                </FocTitle>
+                <List>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>GitFlow</li>
+                    </ul>
+                </List>
             </Focus>
             <HighlightTitle>
                 <h2>Highlight Projects</h2>
