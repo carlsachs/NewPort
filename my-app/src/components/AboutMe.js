@@ -2,6 +2,7 @@ import React from "react";
 
 //IMPORTING COMPONENTS
 import Nav from "./Nav.js";
+import SkillIcons from "./Skills.js";
 
 //import images
 import rencen from "./rencen.jpg";
@@ -72,7 +73,7 @@ const AboutMe = () => {
                 <Nav />
             </Top>
             <TopSec>
-                <Title>About Me</Title>
+                <Title>About Me/Skills</Title>
                 <Fade left>
                     <a href="https://www.linkedin.com/in/carl-sachs/">Check out my Resume</a>
                 </Fade>
@@ -88,7 +89,8 @@ const AboutMe = () => {
             <p>I focused most of my life on the service industry.  Not just for the people, but because Downtown Detroit has an energy like no other.  I worked my way up to the infamous Coach Insignia.  Located on the top floor of the GM Renaissance Center, I basically spent my days overlooking Detroit and Canada, and helping create a memorable experience for everyone, that is in addition to overindulging in the exotic food Detroit has to offer.  Eventually, I went to bartend and serve downstairs at Andiamo RiverFront.  It was here I spent 7 days a week for a very long time.  The Ren Cen became my home, and I loved every minute of it.  Eventually, I recognized that I had more potential than I was giving myself credit for, quit Andiamo, and started my journey towards becoming a developer!</p>
         </MiddleSec>
         <Skills>
-            <h2>Interests Going Forward</h2>
+            <h2>Skills</h2>
+            <SkillIcons />
         </Skills>
         </div>
     )

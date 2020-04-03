@@ -6,7 +6,7 @@ export default function Nav () {
 
     const StyledLink = styled(Link)`
         color: #0C4763;
-        width: 10%;
+        width: 14%;
         padding-top: 10px;
         text-decoration: none;
         &:focus, &:visited, &:link, &:active {
@@ -34,7 +34,7 @@ export default function Nav () {
             <NavWrap>
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
-                    <StyledLink to="/about">About Me</StyledLink>
+                    <StyledLink to="/about">About/Skills</StyledLink>
                     <StyledLink to="/contact">Contact Me</StyledLink>
             </NavWrap>
         </header>
