@@ -3,6 +3,7 @@ import React from "react";
 //import components
 import Nav from "./Nav";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Footer from "./Footer.js";
 
 //import images/icons
 import face from "./face.png";
@@ -22,7 +23,7 @@ const Wrap = styled.div`
 
 const Cont = styled.div`
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +39,7 @@ const Title = styled.h1`
 const Middle = styled.div`
     display: flex;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 10%;
     form {
         display: flex;
@@ -82,6 +83,9 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
+            <div>
+                <Footer />
+            </div>
         </Wrap>
     )
 }

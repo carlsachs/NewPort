@@ -19,6 +19,9 @@ const StyledLink = styled(Link)`
     text-decoration: none;
     margin-top: .75%;
     color: white;
+    :hover {
+        text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    }
 `;
 
 const Footer = () => {
