@@ -38,7 +38,6 @@ const Four = styled.div`
     display: flex;
     justify-content: space-evenly;
     margin-top: 3%;
-    margin-bottom: 1%;
 `;
 
 const Bootstrap = styled.div`
