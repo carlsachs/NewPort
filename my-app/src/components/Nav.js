@@ -6,7 +6,7 @@ export default function Nav () {
 
     const StyledLink = styled(Link)`
         color: #0C4763;
-        width: 10%;
+        width: 14%;
         padding-top: 10px;
         text-decoration: none;
         &:focus, &:visited, &:link, &:active {
