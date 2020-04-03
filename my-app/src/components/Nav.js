@@ -18,6 +18,9 @@ export default function Nav () {
             box-shadow: 0 4px 8px 0 rgba(11, 22, 84, 0.2), 0 6px 20px 0 rgba(11, 22, 84, 0.19);
             transition: all 0.3s ease;
         }
+        @media all and (max-width: 1280px) {
+            width: 17%;
+        }
     `;
     
     const NavWrap = styled.div`
