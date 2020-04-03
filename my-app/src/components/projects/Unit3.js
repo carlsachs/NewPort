@@ -34,18 +34,20 @@ const Card = styled.div`
     const Focus = styled.div`
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         color: #303D84;
+        margin-left: 11%;
         margin-top: 2%;
+    `;
+
+    const FocTitle = styled.div`
         h3 {
-            text-align: center;
-            margin-left: 30%;
-        }
-        ul {
-            margin-right: 30%;
+            margin-top: 30%;
         }
     `;
+
+    const List = styled.div``;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -190,15 +192,19 @@ const Unit3 = () => {
         <Card>
             <Title>Unit 3: JavaScript</Title>
             <Focus>
-                <h3>Focus:</h3>
-                <ul>
-                    <li>Variable, Arrays, Objects, and Functions</li>
-                    <li>Callbacks</li>
-                    <li>.map( ), .reduce( ), and .filter( ) methods</li>
-                    <li>"this" keyword</li>
-                    <li>Constructors + Prototypes</li>
-                    <li>Class Syntax</li>
-                </ul>
+                <FocTitle>
+                    <h3>Focus:</h3>
+                </FocTitle>
+                <List>
+                    <ul>
+                        <li>Variable, Arrays, Objects, and Functions</li>
+                        <li>Callbacks</li>
+                        <li>.map( ), .reduce( ), and .filter( ) methods</li>
+                        <li>"this" keyword</li>
+                        <li>Constructors + Prototypes</li>
+                        <li>Class Syntax</li>
+                    </ul>
+                </List>
             </Focus>
             <HighlightTitle>
                 <h2>Highlight Projects</h2>
