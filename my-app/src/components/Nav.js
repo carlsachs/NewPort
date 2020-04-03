@@ -34,7 +34,7 @@ export default function Nav () {
             <NavWrap>
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
-                    <StyledLink to="/about">About Me</StyledLink>
+                    <StyledLink to="/about">About/Skills</StyledLink>
                     <StyledLink to="/contact">Contact Me</StyledLink>
             </NavWrap>
         </header>

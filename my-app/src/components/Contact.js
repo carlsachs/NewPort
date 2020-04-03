@@ -2,7 +2,6 @@ import React from "react";
 
 //import components
 import Nav from "./Nav";
-import Footer from "./Footer.js";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 //import images/icons
@@ -83,9 +82,6 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
-            <div>
-                <Footer />
-            </div>
         </Wrap>
     )
 }
