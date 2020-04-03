@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Wrap = styled.div`
     width: 100%;
     margin-top: 10%;
-    background-color: lightblue;
+    background-color: lightgreen;
     height: 50px;
 `;
 

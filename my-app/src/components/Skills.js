@@ -33,6 +33,14 @@ const Three = styled.div`
     margin-bottom: 1%;
 `;
 
+const Four = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 1%;
+`;
+
 const Bootstrap = styled.div`
     width: 100px;
     height: 100px;
@@ -162,6 +170,10 @@ const Skills = () => {
                     </svg>
                 </React1>
             </Three>
+            <Four>
+                <h3>NPM</h3>
+                <h3>Create Styling Libraries</h3>
+            </Four>
         </Wrap>
     )
 }
