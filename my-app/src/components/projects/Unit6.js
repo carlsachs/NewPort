@@ -34,18 +34,20 @@ import styled from "styled-components";
     const Focus = styled.div`
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         color: #303D84;
+        margin-left: 7%;
         margin-top: 2%;
+    `;
+
+    const FocTitle = styled.div`
         h3 {
-            text-align: center;
-            margin-left: 30%;
-        }
-        ul {
-            margin-right: 30%;
+            margin-top: 75%;
         }
     `;
+
+    const List = styled.div``;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -195,17 +197,21 @@ const Unit6 = () => {
         <Card>
             <Title>Unit 6: Single Page Web Applications</Title>
             <Focus>
-                <h3>Focus:</h3>
-                <ul>
-                    <li>React Router</li>
-                    <li>Link</li>
-                    <li>Dynamic Routes</li>
-                    <li>useHistory / useParams</li>
-                    <li>Forms / Handlers</li>
-                    <li>Custom Forms</li>
-                    <li>Validation</li>
-                    <li>Axios POST</li>
-                </ul>
+                <FocTitle>
+                    <h3>Focus:</h3>
+                </FocTitle>
+                <List>
+                    <ul>
+                        <li>React Router</li>
+                        <li>Link</li>
+                        <li>Dynamic Routes</li>
+                        <li>useHistory / useParams</li>
+                        <li>Forms / Handlers</li>
+                        <li>Custom Forms</li>
+                        <li>Validation</li>
+                        <li>Axios POST</li>
+                    </ul>
+                </List>
             </Focus>
             <HighlightTitle>
                 <h2>Highlight Projects</h2>
