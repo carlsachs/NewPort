@@ -44,6 +44,9 @@ const Title = styled.div`
       font-size: 1.4rem;
       color: #0B1654;
     }
+    @media all and (max-width: 1280px) {
+      margin-top: 25%;
+    }
 `;
 
 const ButtonWrap = styled.div`
@@ -53,6 +56,9 @@ const ButtonWrap = styled.div`
     width: 45%;
     margin-top:30%;
     z-index: -1;
+    @media all and (max-width: 1280px) {
+      margin-top: 50%;
+    }
 `;
 
 const Button = styled.button`
