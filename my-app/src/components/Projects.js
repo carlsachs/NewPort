@@ -14,6 +14,7 @@ import Unit7 from "./projects/Unit7.js";
 import Unit8 from "./projects/Unit8.js";
 import Unit9 from "./projects/Unit9.js";
 import Module from "./lambda.png";
+import Footer from "./Footer.js";
 
 //styling
 import styled from "styled-components";
@@ -174,6 +175,9 @@ const Projects = () => {
                     </Fade>
                 </UnitNine>
             </BottomWrap>
+            <div>
+                <Footer />
+            </div>
         </Whole>
     )
 }
