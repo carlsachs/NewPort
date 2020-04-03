@@ -8,7 +8,8 @@ import Footer from "./Footer.js";
 //import images
 import rencen from "./rencen.jpg";
 import rencendark from "./rencendark.jpg";
-import coach from "./coach.jpg";
+import coach from "./coach4.jpg";
+import coach1 from "./coach5.jpg";
 
 //STYLING
 import styled from "styled-components";
