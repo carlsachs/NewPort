@@ -116,7 +116,7 @@ const Projects = () => {
             </TopWrap>
             <BottomWrap>
                 <ProTitles>
-                    <h3>In order from day one (when all I knew how to make was the best Old Fashioned you'll ever drink) cascading to the present day, where I've learned so much I sometimes think the next Facebook is just a few ideas away.</h3>
+                    <h3>In order from day one, cascading to present (I left out backend because its hard to show progress).  Keep in mind, we had about 5 hours after lecture for each individual assignment, and 3 hours for sprint challenges.</h3>
                 </ProTitles>
                 <UnitOne>
                     <Fade bottom>
