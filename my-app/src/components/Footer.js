@@ -9,7 +9,7 @@ const Wrap = styled.div`
     width: 100%;
     margin-top: 5%;
     background-color: #4784e6;
-    height: 50px;
+    height: 52px;
     display: flex;
     flex-flow: row-nowrap;
     justify-content: space-evenly;
@@ -19,6 +19,9 @@ const StyledLink = styled(Link)`
     text-decoration: none;
     margin-top: .75%;
     color: white;
+    :hover {
+        text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    }
 `;
 
 const Footer = () => {
