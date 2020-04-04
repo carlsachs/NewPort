@@ -38,6 +38,9 @@ const Card = styled.div`
         color: #303D84;
         margin-left: 7%;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-left: 3.5%;
+        }
     `;
 
     const FocTitle = styled.div`
@@ -98,6 +101,9 @@ const Card = styled.div`
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
             }
+            @media all and (max-width:1280px){
+                padding-top: 4%;
+            }
         }
     `;
 
@@ -116,11 +122,19 @@ const Card = styled.div`
         margin: 0 auto;
         margin-top: 8%;
         margin-bottom: 8%;
+        @media all and (max-width:1280px){
+            text-align: center;
+            margin-top: 10%;
+        }
     }
     img {
         height: 150px;
         width: 90%;
         margin-left: 5%;
+        @media all and (max-width:1280px){
+            width: 80%;
+            margin: 0 auto;
+        }
     }
     a {
         margin: 0 auto;
@@ -134,6 +148,9 @@ const Card = styled.div`
         border-radius: 5%;
         :hover {
             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+        @media all and (max-width:1280px){
+            width: 60%;
         }
     }
     `;
