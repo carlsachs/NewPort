@@ -38,6 +38,9 @@ const Card = styled.div`
         color: #303D84;
         margin-left: 5%;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-left: 1%;
+        }
     `;
 
     const FocTitle = styled.div`
@@ -82,6 +85,10 @@ const Card = styled.div`
         }
         img {
             height: 150px;
+            @media all and (max-width:1280px){
+                width: 80%;
+                margin: 0 auto;
+            }
         }
         a {
             margin: 0 auto;
