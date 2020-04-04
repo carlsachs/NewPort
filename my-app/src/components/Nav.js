@@ -22,7 +22,7 @@ export default function Nav () {
             width: 17%;
         }
         @media all and (max-width: 800px){
-           
+           width: 24%;
         }
     `;
     
@@ -41,7 +41,7 @@ export default function Nav () {
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
                     <StyledLink to="/about">About/Skills</StyledLink>
-                    <StyledLink to="/contact">Contact Me</StyledLink>
+                    <StyledLink to="/contact">Contact</StyledLink>
             </NavWrap>
         </header>
     )
