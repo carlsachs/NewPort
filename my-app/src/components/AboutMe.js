@@ -35,12 +35,19 @@ const MiddleSec = styled.div`
     h2 {
         text-align: center;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-top: 4%;
+            margin-bottom: 4%;
+        }
     }
     p {
         text-align: center;
         padding-right: 3%;
         padding-left: 3%;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-bottom: 4%;
+        }
     }
 `;
 
@@ -59,12 +66,19 @@ const Picture = styled.div`
     img {
         height: 400px;
     }
+    @media all and (max-width:1280px){
+
+    }
 `;
 
 const Skills = styled.div`
     h2 {
         text-align: center;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-bottom:4%;
+            margin-top: 0%;
+        }
     }
 `;
 
