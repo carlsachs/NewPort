@@ -81,9 +81,16 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width:1280px){
+                text-align: center;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width:1280px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         a {
             margin: 0 auto;
@@ -117,9 +124,16 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width:1280px){
+                text-align: center;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width:1280px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         a {
             margin: 0 auto;
@@ -133,6 +147,9 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 80%;
             }
         }
 `;
@@ -152,9 +169,17 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width:1280px){
+                margin-top: 18%;
+                margin-bottom: 16.25%;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width:1280px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         a {
             margin: 0 auto;
@@ -168,6 +193,9 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 80%;
             }
         }
     `;
