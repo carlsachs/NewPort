@@ -118,7 +118,9 @@ const Card = styled.div`
     `;
 
     const IMG2 = styled.div`
+    display: flex;
         img {
+            margin-left: 16%;
             height: 150px;
             @media all and (max-width: 1280px){
                 width: 90%;
@@ -167,7 +169,9 @@ const Card = styled.div`
     `;
 
     const IMG3 = styled.div`
+    border: 1px solid black;
         img {
+            margin-left: 20%;
             height: 150px;
             @media all and (max-width:1280px){
                 width: 90%;
