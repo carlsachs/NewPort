@@ -60,6 +60,9 @@ const Lambda = styled.div`
 const BottomWrap = styled.div`
     display: flex;
     flex-direction: column;
+    @media all and (max-width: 800px){
+        margin-top: 3%;
+    }
 `;
 
 const ProTitles = styled.div`
@@ -68,6 +71,9 @@ const ProTitles = styled.div`
     padding-left: 15%;
     text-align: center;
     color: #1B286C;
+    @media all and (max-width: 800px){
+        margin-bottom: 4%;
+    }
 `;
 
 const UnitOne = styled.div``;
