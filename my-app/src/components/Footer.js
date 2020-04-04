@@ -13,6 +13,9 @@ const Wrap = styled.div`
     display: flex;
     flex-flow: row-nowrap;
     justify-content: space-evenly;
+    @media all and (max-width:1280px){
+        margin-top: 10.5%;
+    }
 `;
 
 const StyledLink = styled(Link)`

@@ -41,6 +41,9 @@ const Middle = styled.div`
     margin: 0 auto;
     margin-top: 2%;
     width: 10%;
+    @media all and (max-width:1280px){
+        margin-left: 43%;
+    }
     form {
         display: flex;
         flex-flow: column nowrap;
