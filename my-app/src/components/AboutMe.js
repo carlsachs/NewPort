@@ -38,6 +38,9 @@ const MiddleSec = styled.div`
             margin-top: 4%;
             margin-bottom: 4%;
         }
+        @media all and (max-width: 800px){
+            margin-top: 6%;
+        }
     }
     p {
         text-align: center;
@@ -46,6 +49,10 @@ const MiddleSec = styled.div`
         margin-top: 2%;
         @media all and (max-width:1280px){
             margin-bottom: 4%;
+        }
+        @media all and (max-width: 800px){
+            margin-top: 6%;
+            margin-bottom: 6%;
         }
     }
 `;
@@ -56,6 +63,10 @@ const Title = styled.div`
     margin-top: 8%;
     font-size: 2rem;
     padding: 1%;
+    @media all and (max-width: 800px){
+        margin-top: 12%;
+        margin-bottom: 4%;
+    }
 `;
 
 const Picture = styled.div`
@@ -68,6 +79,9 @@ const Picture = styled.div`
     @media all and (max-width:1280px){
         justify-content: space-evenly;
     }
+    @media all and (max-width: 800px){
+        margin-top: 5%;
+    }
 `;
 
 const Skills = styled.div`
@@ -78,12 +92,20 @@ const Skills = styled.div`
             margin-bottom:4%;
             margin-top: 0%;
         }
+        @media all and (max-width: 800px){
+            margin-top: 6%;
+            margin-bottom: 8%;
+        }
     }
 `;
 
 const PicLeft = styled.div``;
 
-const PicMiddle = styled.div``;
+const PicMiddle = styled.div`
+    @media all and (max-width: 800px){
+        display: none;
+    }
+`;
 
 const PicRight = styled.div`
     @media all and (max-width: 1280px){

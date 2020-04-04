@@ -21,6 +21,9 @@ export default function Nav () {
         @media all and (max-width: 1280px) {
             width: 17%;
         }
+        @media all and (max-width: 800px){
+           
+        }
     `;
     
     const NavWrap = styled.div`
