@@ -47,6 +47,11 @@ const Title = styled.div`
     @media all and (max-width: 1280px) {
       margin-top: 25%;
     }
+    @media all and (max-width: 800px){
+      width: 40%;
+      margin-top: 35%;
+      left: 28%;
+    }
 `;
 
 const ButtonWrap = styled.div`
@@ -58,6 +63,9 @@ const ButtonWrap = styled.div`
     z-index: -1;
     @media all and (max-width: 1280px) {
       margin-top: 50%;
+    }
+    @media all and (max-width: 800px){
+      margin-top: 70%;
     }
 `;
 
@@ -73,17 +81,20 @@ const Button = styled.button`
     border-radius: 4%;
     transition: all 0.3s ease;
   }
+  @media all and (max-width: 800px){
+    width: 125px;
+  }
 `;
 
 const Button1 = styled.div`
     position: absolute;
-    left: 10%;
+    left: 6%;
     top: 65%;
 `;
 
 const Button2 = styled.div`
   position: absolute;
-  right: 10%;
+  right: 6%;
   top: 65%;
 `;
 
