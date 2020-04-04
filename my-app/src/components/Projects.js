@@ -94,7 +94,7 @@ const Desc = styled.div`
     padding-top: 2%;
     padding-left: 3%;
     @media all and (max-width: 1280px) {
-        top: 35%;
+        top: 33.5%;
         left: 32%;
         width: 43%;
         padding-top: 2%;
