@@ -33,7 +33,10 @@ const Title = styled.div`
     margin-top: 8%;
     text-align: center;
     color: #1B286C;
-    
+    @media all and (max-width: 800px){
+        margin-top 12%;
+        margin-bottom: 4%;
+    }
 `;
 
 const Lambda = styled.div`
@@ -46,6 +49,11 @@ const Lambda = styled.div`
         padding-right: 10%;
         padding-left: 10%;
         font-size: 1rem;
+    }
+    @media all and (max-width: 800px){
+        img{
+            margin-top: 4%;
+        }
     }
 `;
 
@@ -99,6 +107,11 @@ const Desc = styled.div`
         width: 43%;
         padding-top: 2%;
         height: 280px;
+    }
+    @media all and (max-width: 800px){
+        top: 39.5%;
+        width: 65%;
+        left: 25%;
     }
 `;
 
