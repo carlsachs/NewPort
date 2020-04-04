@@ -169,7 +169,6 @@ const Card = styled.div`
     `;
 
     const IMG3 = styled.div`
-    border: 1px solid black;
         img {
             margin-left: 20%;
             height: 150px;
