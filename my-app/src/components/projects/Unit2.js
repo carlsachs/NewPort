@@ -46,7 +46,9 @@ const Card = styled.div`
         }
     `;
 
-    const List = styled.div``;
+    const List = styled.div`
+
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -79,9 +81,15 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 7%;
+            @media all and (max-width: 1280px){
+                margin-top: 21%;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width: 1280px){
+                width: 90%;
+            }
         }
         a {
             margin: 0 auto;
@@ -95,6 +103,10 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px){
+                width: 70%;
+                margin-top: 5%;
             }
         }
     `;
@@ -115,9 +127,15 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 1280px){
+                text-align: center;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width: 1280px){
+                width: 90%;
+            }
         }
         a {
             margin: 0 auto;
@@ -131,6 +149,9 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 75%;
             }
         }
     `;
@@ -150,6 +171,9 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 1280px){
+                margin-top: 22%;
+            }
         }
         img {
             height: 150px;
@@ -167,6 +191,7 @@ const Card = styled.div`
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
             }
+            @media all and (max-width: )
         }
     `;
 
