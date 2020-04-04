@@ -13,6 +13,9 @@ const Wrap = styled.div`
     display: flex;
     flex-flow: row-nowrap;
     justify-content: space-evenly;
+    @media all and (max-width:1280px){
+        margin-top: 10.5%;
+    }
 `;
 
 const StyledLink = styled(Link)`
@@ -21,6 +24,9 @@ const StyledLink = styled(Link)`
     color: white;
     :hover {
         text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    }
+    @media all and (max-width:1280px){
+        margin-top: 1.25%;
     }
 `;
 

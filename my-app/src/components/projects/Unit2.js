@@ -46,7 +46,9 @@ const Card = styled.div`
         }
     `;
 
-    const List = styled.div``;
+    const List = styled.div`
+
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
@@ -65,6 +67,18 @@ const Card = styled.div`
             justify-content: center;
         }
     `;
+
+    const IMG = styled.div`
+        img {
+            height: 150px;
+            @media all and (max-width: 1280px){
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2.75%;
+            }
+        }
+    `;
+
     const Left = styled.div`
         display: flex;
         width: 30%;
@@ -79,9 +93,9 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 7%;
-        }
-        img {
-            height: 150px;
+            @media all and (max-width: 1280px){
+                margin-top: 21%;
+            }
         }
         a {
             margin: 0 auto;
@@ -95,6 +109,22 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px){
+                width: 70%;
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const IMG2 = styled.div`
+    display: flex;
+        img {
+            margin-left: 16%;
+            height: 150px;
+            @media all and (max-width: 1280px){
+                width: 90%;
+                margin-left: 5%;
             }
         }
     `;
@@ -115,9 +145,9 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
-        }
-        img {
-            height: 150px;
+            @media all and (max-width: 1280px){
+                text-align: center;
+            }
         }
         a {
             margin: 0 auto;
@@ -131,6 +161,20 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 75%;
+            }
+        }
+    `;
+
+    const IMG3 = styled.div`
+        img {
+            margin-left: 20%;
+            height: 150px;
+            @media all and (max-width:1280px){
+                width: 90%;
+                margin-left: 5%;
             }
         }
     `;
@@ -150,9 +194,9 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
-        }
-        img {
-            height: 150px;
+            @media all and (max-width: 1280px){
+                margin-top: 22%;
+            }
         }
         a {
             margin: 0 auto;
@@ -166,6 +210,9 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px){
+                width: 80%;
             }
         }
     `;
@@ -211,21 +258,27 @@ const Unit2 = () => {
                     <Flex>
                         <h3>Preprocessing I</h3>
                         <a href='https://github.com/carlsachs/Preprocessing-I'>Github Repo</a>
-                        <img src={Advanced1} alt="advanced CSS project"/>
+                        <IMG>
+                            <img src={Advanced1} alt="advanced CSS project"/>
+                        </IMG>
                     </Flex>
                 </Left>
                 <Middle>
                     <Flex2>
                         <h3>Sprint Challenge</h3>
                         <a href='https://github.com/carlsachs/Sprint-Challenge--Advanced-CSS'>Github Repo</a>
-                        <img src={Carlos} alt="Spring challenge css"/>
+                        <IMG2>
+                            <img src={Carlos} alt="Spring challenge css"/>
+                        </IMG2>
                     </Flex2>
                 </Middle>
                 <Right>
                 <Flex1>
                     <h3>Preprocessing II</h3>
                     <a href='https://github.com/carlsachs/Preprocessing-II'>Github Repo</a>
-                    <img src={FunBus} alt="FunBus Homepage"/>
+                    <IMG3>
+                        <img src={FunBus} alt="FunBus Homepage"/>
+                    </IMG3>
                 </Flex1>
             </Right>
             </High>

@@ -39,6 +39,9 @@ import styled from "styled-components";
         color: #303D84;
         margin-left: 7%;
         margin-top: 2%;
+        @media all and (max-width:1280px){
+            margin-left: 3.5%;
+        }
     `;
 
     const FocTitle = styled.div`
@@ -81,12 +84,20 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 12%;
+            @media all and (max-width:1280px){
+                text-align: center;
+                padding-right: 2%;
+                padding-left: 2%;
+            }
         }
         img {
             height: 100px;
             width: 80%;
             margin: 0 auto;
             margin-top: 10%;
+            @media all and (max-width:1280px){
+                height: 150px;
+            }
         }
         a {
             margin: 0 auto;
@@ -100,6 +111,9 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 80%;
             }
         }
     `;
@@ -120,11 +134,17 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 10%;
+            @media all and (max-width:1280px){
+                text-align: center;
+            }
         }
         img {
             height: 150px;
             width: 90%;
             margin: 0 auto;
+            @media all and (max-width:1280px){
+                width: 80%;
+            }
         }
         a {
             margin: 0 auto;
@@ -138,6 +158,11 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 80%;
+                margin-top: 2.25%;
+                margin-bottom: 15%;
             }
         }
 `;
@@ -157,9 +182,17 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 15%;
+            @media all and (max-width:1280px){
+                margin-top: 14%;
+                margin-bottom: 18%;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width:1280px){
+                width: 80%;
+                margin:0 auto;
+            }
         }
         a {
             margin: 0 auto;
@@ -173,6 +206,9 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width:1280px){
+                width: 80%;
             }
         }
     `;

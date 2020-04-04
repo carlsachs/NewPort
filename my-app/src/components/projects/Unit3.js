@@ -39,6 +39,10 @@ const Card = styled.div`
         color: #303D84;
         margin-left: 11%;
         margin-top: 2%;
+        @media all and (max-width: 1280px){
+            width: 80%;
+            margin-left: 15%;
+        }
     `;
 
     const FocTitle = styled.div`
@@ -60,7 +64,7 @@ const Card = styled.div`
         width: 100%;
         color: #303D84;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         h2 {
             display: flex;
             justify-content: center;
@@ -84,6 +88,11 @@ const Card = styled.div`
         }
         img {
             height: 150px;
+            @media all and (max-width: 1280px) {
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 5%;
+            }
         }
         a {
             margin: 0 auto;
@@ -117,9 +126,17 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 1280px){
+                margin-top: 9%;
+                text-align: center;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width: 1280px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         a {
             margin: 0 auto;
@@ -133,6 +150,10 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px) {
+                width: 80%;
+                margin-bottom: 15%;
             }
         }
 `;
@@ -152,9 +173,18 @@ const Card = styled.div`
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 1280px) {
+                margin-top: 16.5%;
+                margin-bottom: 14.25%;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width: 1280px) {
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 3%;
+            }
         }
         a {
             margin: 0 auto;
@@ -168,6 +198,9 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px){
+                width: 80%;
             }
         }
     `;

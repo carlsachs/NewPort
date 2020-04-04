@@ -97,7 +97,8 @@ const Desc = styled.div`
         top: 35%;
         left: 32%;
         width: 43%;
-        padding-top: 1%;
+        padding-top: 2%;
+        height: 280px;
     }
 `;
 
