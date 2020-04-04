@@ -22,6 +22,9 @@ const StyledLink = styled(Link)`
     :hover {
         text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     }
+    @media all and (max-width:1280px){
+        margin-top: 1.25%;
+    }
 `;
 
 const Footer = () => {
