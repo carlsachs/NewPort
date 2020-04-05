@@ -1,6 +1,9 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 
+//Importing Meta
+import MetaTags from "react-meta-tags"
+
 //IMPORTING OTHER FILES
 
 import Nav from "./Nav.js";
@@ -122,7 +125,12 @@ const Home = () => {
 
   return (
     <HomeDiv>
-    <Nav />
+      <MetaTags>
+        <title>Carl Sachs.1</title>
+        <meta name="description" content="Portfolio of Carl Sachs" />
+        <meta property="og:title" content="Portfolio for Development" />
+      </MetaTags>
+        <Nav />
     <Particles 
     params={ particleOpt2 }
     style={{
