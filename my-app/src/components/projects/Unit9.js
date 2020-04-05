@@ -29,6 +29,9 @@ import styled from "styled-components";
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 800px){
+            text-align: center;
+        }
     `;
 
     const Focus = styled.div`
@@ -64,9 +67,8 @@ import styled from "styled-components";
         color: #303D84;
         display: flex;
         justify-content: space-between;
-        h2 {
-            display: flex;
-            justify-content: center;
+        @media all and (max-width: 800px){
+            flex-flow: column nowrap;
         }
     `;
    
@@ -80,6 +82,11 @@ import styled from "styled-components";
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin-bottom: .4%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 10%;
@@ -89,6 +96,11 @@ import styled from "styled-components";
                 padding-right: 2%;
                 padding-left: 2%;
             }
+            @media all and (max-width: 800px){
+                margin-top: 3.5%;
+                margin-bottom: 2%;
+                padding: none;
+            }
         }
         img {
             height: 100px;
@@ -97,6 +109,9 @@ import styled from "styled-components";
             margin-top: 10%;
             @media all and (max-width:1280px){
                 height: 150px;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -115,6 +130,11 @@ import styled from "styled-components";
             @media all and (max-width:1280px){
                 width: 80%;
             }
+            @media all and (max-width: 800px){
+                width: 51.5%;
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
         }
     `;
 
@@ -130,12 +150,19 @@ import styled from "styled-components";
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 10%;
             @media all and (max-width:1280px){
                 text-align: center;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
             }
         }
         img {
@@ -144,6 +171,9 @@ import styled from "styled-components";
             margin: 0 auto;
             @media all and (max-width:1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -164,6 +194,11 @@ import styled from "styled-components";
                 margin-top: 2.25%;
                 margin-bottom: 15%;
             }
+            @media all and (max-width: 800px){
+                padding-bottom: 4%;
+                margin-top: 1%;
+                width: 70%;
+            }
         }
 `;
     
@@ -178,6 +213,12 @@ import styled from "styled-components";
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin: 0 auto;
+            margin-bottom: 2%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -186,12 +227,18 @@ import styled from "styled-components";
                 margin-top: 14%;
                 margin-bottom: 18%;
             }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+            }
         }
         img {
             height: 150px;
             @media all and (max-width:1280px){
                 width: 80%;
                 margin:0 auto;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -209,6 +256,13 @@ import styled from "styled-components";
             }
             @media all and (max-width:1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                width: 100%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 2.5%
+                padding-right: 2.5%
             }
         }
     `;
