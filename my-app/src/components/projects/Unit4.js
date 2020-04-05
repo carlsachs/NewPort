@@ -28,6 +28,9 @@ const Card = styled.div`
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 800px){
+            text-align: center;
+        }
     `;
 
     const Focus = styled.div`
@@ -59,9 +62,8 @@ const Card = styled.div`
         color: #303D84;
         display: flex;
         justify-content: space-between;
-        h2 {
-            display: flex;
-            justify-content: center;
+        @media all and (max-width: 800px){
+            flex-flow: column nowrap;
         }
     `;
     const Left = styled.div`
@@ -74,14 +76,24 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 15%;
             margin-bottom: 15%;
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+            }
         }
         img {
             height: 150px;
             margin-top:3%;
+            @media all and (max-width: 800px){
+                display: none;
+            }
         }
         a {
             margin: 0 auto;
@@ -99,45 +111,67 @@ const Card = styled.div`
             @media all and (max-width: 1280px){
                 width: 100%;
             }
+            @media all and (max-width: 800px){
+                padding-top: 4%;
+                padding-bottom: 4%;
+            }
         }
     `;
 
     const Right = styled.div`
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 2%;
-    background: rgb(23,69,91);
-    background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    h3 {
-        margin: 0 auto;
-        margin-top: 12%;
-        margin-bottom: 12%;
-    }
-    img {
-        height: 150px;
-    }
-    a {
-        margin: 0 auto;
-        margin-bottom: 12%;
-        text-decoration: none;
-        border: 1px solid #0B1654;
-        width: 100%;
-        height: 35px;
-        text-align: center;
-        padding-top: 5%;
-        border-radius: 5%;
-        :hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
+        background: rgb(23,69,91);
+        background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin: 0 auto;
+            margin-bottom: 2%;
         }
-        @media all and (max-width: 1280px){
-            width: 80%;
+        h3 {
+            margin: 0 auto;
+            margin-top: 12%;
+            margin-bottom: 12%;
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 14%;
+            }
         }
-    }
+        img {
+            height: 150px;
+            @media all and (max-width: 800px){
+                display: none;
+            }
+        }
+        a {
+            margin: 0 auto;
+            margin-bottom: 12%;
+            text-decoration: none;
+            border: 1px solid #0B1654;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            padding-top: 5%;
+            border-radius: 5%;
+            :hover {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 1280px){
+                width: 80%;
+            }
+            @media all and (max-width: 800px){
+                margin-bottom: 3%;
+                padding-top: 4%;
+                padding-bottom: 4%;
+            }
+        }
     `;
 
     const Flex = styled.div`
