@@ -38,20 +38,37 @@ import styled from "styled-components";
                 height: 50px;
                 padding-top: .75%;
             }
+            @media all and (max-width: 800px){
+                width: 30%;
+                padding-top: 5%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
         }
         h2 {
             margin: 0 auto;
             margin-top: 2%;
+            @media all and (max-width: 800px){
+                margin-top: 4%;
+            }
         }
         h3 {
             margin: 0 auto;
             margin-top: 2%;
             margin-bottom: 2%;
+            @media all and (max-width: 800px){
+                text-align: center;
+                margin-top: 4%;
+            }
         }
         img {
             width: 50%;
             margin: 0 auto;
             margin-bottom : 2.75%;
+            @media all and (max-width: 800px){
+                margin-top: 4%;
+                margin-bottom: 6%;
+            }
         }
     `;
 
@@ -71,6 +88,9 @@ import styled from "styled-components";
         margin-left: 21%;
         img {
             margin-right: 30%;
+        }
+        @media all and (max-width: 800px){
+            margin-left: 12.5%;
         }
     `;
 
