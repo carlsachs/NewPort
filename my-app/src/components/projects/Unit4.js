@@ -78,11 +78,15 @@ const Card = styled.div`
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media all and (max-width: 800px){
             width: 90%;
+            height: 125px;
         }
         h3 {
             margin: 0 auto;
             margin-top: 15%;
             margin-bottom: 15%;
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+            }
         }
         img {
             height: 150px;
@@ -107,6 +111,10 @@ const Card = styled.div`
             @media all and (max-width: 1280px){
                 width: 100%;
             }
+            @media all and (max-width: 800px){
+                padding-top: 4%;
+                padding-bottom: 4%;
+            }
         }
     `;
 
@@ -123,6 +131,7 @@ const Card = styled.div`
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media all and (max-width: 800px){
             width: 90%;
+            height: 125px;
             margin: 0 auto;
             margin-bottom: 2%;
         }
@@ -131,7 +140,7 @@ const Card = styled.div`
             margin-top: 12%;
             margin-bottom: 12%;
             @media all and (max-width: 800px){
-                margin-top: 14%;
+                margin-top: 6.5%;
                 margin-bottom: 14%;
             }
         }
@@ -158,7 +167,9 @@ const Card = styled.div`
                 width: 80%;
             }
             @media all and (max-width: 800px){
-                margin-bottom: 6.5%;
+                margin-bottom: 3%;
+                padding-top: 4%;
+                padding-bottom: 4%;
             }
         }
     `;
