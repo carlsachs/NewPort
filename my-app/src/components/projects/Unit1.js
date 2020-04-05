@@ -10,15 +10,15 @@ import Sprint1 from "./Sprint1.png";
 import styled from "styled-components";
 
 const Card = styled.div`
-    width: 80%;
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background: rgb(53,149,255);
-    background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
-    box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background: rgb(53,149,255);
+        background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
+        box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
     `;
 
     const Title = styled.h1`
@@ -61,10 +61,6 @@ const Card = styled.div`
         color: #303D84;
         display: flex;
         justify-content: space-between;
-        h2 {
-            display: flex;
-            justify-content: center;
-        }
         @media all and (max-width: 800px){
             flex-flow: column wrap;
         }
@@ -81,7 +77,8 @@ const Card = styled.div`
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media all and (max-width: 800px){
-            width: 80%;
+            width: 90%;
+            height: 125px;
             margin: 0 auto;
             margin-bottom: 2%;
         }
@@ -90,7 +87,7 @@ const Card = styled.div`
             margin-top: 20%;
             margin-bottom:18%;
             @media all and (max-width: 800px){
-                margin-top: 17.5%;
+                margin-top: 10%;
             }
         }
         img {
@@ -113,10 +110,9 @@ const Card = styled.div`
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
             }
             @media all and (max-width: 800px){
-                width: 45%;
-                padding-bottom: 1%;
-                padding-top: 3%;
-                margin-top: 14%;
+                padding-left: 2.5%;
+                padding-right: 2.5%;
+                padding-bottom: 5%;
             }
         }
     `;
@@ -133,14 +129,19 @@ const Card = styled.div`
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media all and (max-width: 800px){
-            width: 80%;
+            width: 90%;
+            height: 125px;
             margin: 0 auto;
-            margin-bottom: 3%;
+            margin-bottom: 2%;
         }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 800px){
+                margin-top: 8.5%;
+                margin-bottom: 8%;
+            }
         }
         img {
             height: 150px;
@@ -166,7 +167,12 @@ const Card = styled.div`
                  px rgba(0,0,0,0.23);
             }
             @media all and (max-width: 800px){
-                width: 75%;
+                width: 65%;
+                margin-top: 10%;
+                padding-top: 3%;
+                padding-left: 1.25%;
+                padding-right: 1.25%;
+                padding-bottom: 3%;
             }
         }
     `;
@@ -174,22 +180,11 @@ const Card = styled.div`
     const Flex = styled.div`
     display: flex;
     flex-flow: column nowrap;
-    @media all and (max-width: 800px){
-        flex-flow: row nowrap;
-        border: 1px solid red;
-        width: 100%;
-    }
     `;
 
     const Flex1 = styled.div`
     display: flex;
     flex-flow: column nowrap;
-    @media all and (max-width: 800px){
-        flex-flow: row nowrap;
-        border: 1px solid lightgreen;
-        width: 100%;
-        height: 100px;
-    }
     `;
 
 const Unit1 = () => {
@@ -220,10 +215,12 @@ const Unit1 = () => {
                     </Flex>
                 </Left>
                 <Right>
+                    <Flex1>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
                     <img src={Sprint1} alt="First sprint homepage"/>
-            </Right>
+                    </Flex1>
+                </Right>
             </High>
         </Card>
     )
