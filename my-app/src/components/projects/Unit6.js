@@ -187,8 +187,10 @@ import styled from "styled-components";
                 width: 80%;
             }
             @media all and (max-width: 800px){
+                width: 65%;
                 margin-top: 8.5%;
-                padding-bottom: 5%;
+                padding-top: 4%;
+                padding-bottom: 4%;
             }
         }
 `;
@@ -217,6 +219,9 @@ import styled from "styled-components";
             @media all and (max-width:1280px){
                 margin-top: 20%;
             }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+            }
         }
         img {
             height: 150px;
@@ -243,6 +248,10 @@ import styled from "styled-components";
                 width: 80%;
                 padding-top: 6%;
                 margin-top: 3.5%;
+            }
+            @media all and (max-width: 800px){
+                width: 90%;
+                padding-bottom: 6%;
             }
         }
     `;
