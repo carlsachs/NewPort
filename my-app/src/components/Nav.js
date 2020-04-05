@@ -6,7 +6,7 @@ export default function Nav () {
 
     const StyledLink = styled(Link)`
         color: #0C4763;
-        width: 14%;
+        width: 25%;
         padding-top: 10px;
         text-decoration: none;
         &:focus, &:visited, &:link, &:active {
@@ -35,13 +35,30 @@ export default function Nav () {
         height: 40px;
         margin-top: 2%;
     `;
+
+    const Left = styled.div`
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+    `;
+
+    const Right = styled.div`
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+    `;
+
     return (
         <header>
             <NavWrap>
+                <Left>
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/projects">Projects</StyledLink>
+                </Left>
+                <Right>
                     <StyledLink to="/about">About/Skills</StyledLink>
                     <StyledLink to="/contact">Contact</StyledLink>
+                </Right>        
             </NavWrap>
         </header>
     )
