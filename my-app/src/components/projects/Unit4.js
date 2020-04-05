@@ -62,9 +62,8 @@ const Card = styled.div`
         color: #303D84;
         display: flex;
         justify-content: space-between;
-        h2 {
-            display: flex;
-            justify-content: center;
+        @media all and (max-width: 800px){
+            flex-flow: column nowrap;
         }
     `;
     const Left = styled.div`
@@ -77,6 +76,9 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 15%;
@@ -119,10 +121,19 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 2%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
+            @media all and (max-width: 800px){
+                margin-top: 14%;
+                margin-bottom: 14%;
+            }
         }
         img {
             height: 150px;
@@ -145,6 +156,9 @@ const Card = styled.div`
             }
             @media all and (max-width: 1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                margin-bottom: 6.5%;
             }
         }
     `;
