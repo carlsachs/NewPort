@@ -66,6 +66,9 @@ const Card = styled.div`
             display: flex;
             justify-content: center;
         }
+        @media all and (max-width: 800px){
+            flex-direction: column;
+        }
     `;
 
     const IMG = styled.div`
@@ -76,6 +79,9 @@ const Card = styled.div`
                 margin-left: 5%;
                 margin-top: 2.75%;
             }
+        }
+        @media all and (max-width: 800px){
+            display: none;
         }
     `;
 
@@ -89,12 +95,20 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            margin-bottom: .4%;
+            height: 125px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 10%;
             margin-bottom: 7%;
             @media all and (max-width: 1280px){
                 margin-top: 21%;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
             }
         }
         a {
@@ -114,6 +128,10 @@ const Card = styled.div`
                 width: 70%;
                 margin-top: 5%;
             }
+            @media all and (max-width: 800px){
+                padding-top: 2%;
+                width: 80%;
+            }
         }
     `;
 
@@ -126,6 +144,9 @@ const Card = styled.div`
                 width: 90%;
                 margin-left: 5%;
             }
+        }
+        @media all and (max-width: 800px){
+            display: none;
         }
     `;
 
@@ -141,12 +162,19 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
             @media all and (max-width: 1280px){
                 text-align: center;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
             }
         }
         a {
@@ -165,6 +193,11 @@ const Card = styled.div`
             @media all and (max-width:1280px){
                 width: 75%;
             }
+            @media all and (max-width: 800px){
+                padding-top: 1.25%;
+                width: 80%;
+                margin-top: 2%;
+            }
         }
     `;
 
@@ -176,6 +209,9 @@ const Card = styled.div`
                 width: 90%;
                 margin-left: 5%;
             }
+        }
+        @media all and (max-width: 800px){
+            display: none;
         }
     `;
 
@@ -190,12 +226,21 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin: 0 auto;
+            margin-bottom: 2%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
             margin-bottom: 12%;
             @media all and (max-width: 1280px){
                 margin-top: 22%;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
             }
         }
         a {
@@ -213,6 +258,11 @@ const Card = styled.div`
             }
             @media all and (max-width: 1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                padding-top: 2%;
+                width: 80%;
+                margin-bottom: 5%;
             }
         }
     `;
