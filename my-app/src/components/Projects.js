@@ -33,7 +33,10 @@ const Title = styled.div`
     margin-top: 8%;
     text-align: center;
     color: #1B286C;
-    
+    @media all and (max-width: 800px){
+        margin-top 12%;
+        margin-bottom: 4%;
+    }
 `;
 
 const Lambda = styled.div`
@@ -47,11 +50,19 @@ const Lambda = styled.div`
         padding-left: 10%;
         font-size: 1rem;
     }
+    @media all and (max-width: 800px){
+        img{
+            margin-top: 4%;
+        }
+    }
 `;
 
 const BottomWrap = styled.div`
     display: flex;
     flex-direction: column;
+    @media all and (max-width: 800px){
+        margin-top: 3%;
+    }
 `;
 
 const ProTitles = styled.div`
@@ -60,6 +71,9 @@ const ProTitles = styled.div`
     padding-left: 15%;
     text-align: center;
     color: #1B286C;
+    @media all and (max-width: 800px){
+        margin-bottom: 4%;
+    }
 `;
 
 const UnitOne = styled.div``;
@@ -94,11 +108,16 @@ const Desc = styled.div`
     padding-top: 2%;
     padding-left: 3%;
     @media all and (max-width: 1280px) {
-        top: 35%;
+        top: 33.5%;
         left: 32%;
         width: 43%;
         padding-top: 2%;
         height: 280px;
+    }
+    @media all and (max-width: 800px){
+        top: 39.5%;
+        width: 65%;
+        left: 25%;
     }
 `;
 

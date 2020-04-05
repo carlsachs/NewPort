@@ -34,6 +34,10 @@ const Title = styled.h1`
     width: 100%;
     justify-content: center;
     margin-top: 8%;
+    @media all and (max-width: 800px){
+        margin-top: 12%;
+        margin-bottom: 4%;
+    }
 `;
 
 const Middle = styled.div`
@@ -43,6 +47,9 @@ const Middle = styled.div`
     width: 10%;
     @media all and (max-width:1280px){
         margin-left: 43%;
+    }
+    @media all and (max-width: 800px){
+        margin-left: 39%;
     }
     form {
         display: flex;

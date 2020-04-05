@@ -27,6 +27,9 @@ const Card = styled.div`
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 800px){
+            text-align: center;
+        }
     `;
 
     const Focus = styled.div`
@@ -62,7 +65,11 @@ const Card = styled.div`
             display: flex;
             justify-content: center;
         }
+        @media all and (max-width: 800px){
+            flex-flow: column wrap;
+        }
     `;
+
     const Left = styled.div`
         display: flex;
         width: 40%;
@@ -73,13 +80,24 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 2%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 20%;
             margin-bottom:18%;
+            @media all and (max-width: 800px){
+                margin-top: 17.5%;
+            }
         }
         img {
             height: 150px;
+            @media all and (max-width: 800px){
+                display: none;
+            }
         }
         a {
             margin: 0 auto;
@@ -93,6 +111,12 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 800px){
+                width: 45%;
+                padding-bottom: 1%;
+                padding-top: 3%;
+                margin-top: 14%;
             }
         }
     `;
@@ -108,6 +132,11 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 3%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -115,6 +144,9 @@ const Card = styled.div`
         }
         img {
             height: 150px;
+            @media all and (max-width: 800px){
+                display: none;
+            }
         }
         a {
             margin: 0 auto;
@@ -127,7 +159,14 @@ const Card = styled.div`
             padding-top: 5%;
             border-radius: 5%;
             :hover {
-                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6
+                
+                ++++
+                
+                 px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 800px){
+                width: 75%;
             }
         }
     `;
@@ -135,11 +174,22 @@ const Card = styled.div`
     const Flex = styled.div`
     display: flex;
     flex-flow: column nowrap;
+    @media all and (max-width: 800px){
+        flex-flow: row nowrap;
+        border: 1px solid red;
+        width: 100%;
+    }
     `;
 
     const Flex1 = styled.div`
     display: flex;
     flex-flow: column nowrap;
+    @media all and (max-width: 800px){
+        flex-flow: row nowrap;
+        border: 1px solid lightgreen;
+        width: 100%;
+        height: 100px;
+    }
     `;
 
 const Unit1 = () => {
@@ -170,11 +220,9 @@ const Unit1 = () => {
                     </Flex>
                 </Left>
                 <Right>
-                <Flex1>
                     <h3>Sprint Challenge</h3>
                     <a href='https://github.com/carlsachs/Sprint-Challenge--User-Interface'>Github Repo</a>
                     <img src={Sprint1} alt="First sprint homepage"/>
-                </Flex1>
             </Right>
             </High>
         </Card>
