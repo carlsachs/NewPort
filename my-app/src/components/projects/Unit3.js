@@ -69,6 +69,9 @@ const Card = styled.div`
             display: flex;
             justify-content: center;
         }
+        @media all and (max-width: 800px){
+            flex-flow: column nowrap;
+        }
     `;
     const Left = styled.div`
         display: flex;
@@ -80,11 +83,20 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin-bottom: .50%;
+        }
         h3 {
             margin: 0 auto;
             text-align: center;
             margin-top: 10%;
             margin-bottom: 10%;
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 4%;
+            }
         }
         img {
             height: 150px;
@@ -92,6 +104,9 @@ const Card = styled.div`
                 width: 90%;
                 margin: 0 auto;
                 margin-top: 5%;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -106,6 +121,11 @@ const Card = styled.div`
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 800px){
+                padding-top: 2%;
+                padding-bottom: 2%;
+                width: 45%;
             }
         }
     `;
@@ -122,6 +142,10 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -130,12 +154,19 @@ const Card = styled.div`
                 margin-top: 9%;
                 text-align: center;
             }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 6%;
+            }
         }
         img {
             height: 150px;
             @media all and (max-width: 1280px){
                 width: 90%;
                 margin: 0 auto;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -155,6 +186,11 @@ const Card = styled.div`
                 width: 80%;
                 margin-bottom: 15%;
             }
+            @media all and (max-width: 800px){
+                padding-bottom: 4%;
+                padding-top: 4%;
+                width: 60%;
+            }
         }
 `;
 
@@ -169,6 +205,12 @@ const Card = styled.div`
         background: rgb(23,69,91);
         background: radial-gradient(circle, rgba(23,69,91,0.5676645658263305) 0%, rgba(8,31,94,0.4920343137254902) 100%);
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        @media all and (max-width: 800px){
+            width: 90%;
+            height: 125px;
+            margin: 0 auto;
+            margin-bottom: 2%;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -177,6 +219,10 @@ const Card = styled.div`
                 margin-top: 16.5%;
                 margin-bottom: 14.25%;
             }
+            @media all and (max-width: 800px){
+                margin-top: 14%;
+                margin-bottom: 13.5%;
+            }
         }
         img {
             height: 150px;
@@ -184,6 +230,9 @@ const Card = styled.div`
                 width: 90%;
                 margin: 0 auto;
                 margin-top: 3%;
+            }
+            @media all and (max-width: 800px){
+                display: none;
             }
         }
         a {
@@ -201,6 +250,12 @@ const Card = styled.div`
             }
             @media all and (max-width: 1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                width: 100%;
+                padding-top: 6%;
+                padding-bottom: 6%;
+                margin-top: 1%;
             }
         }
     `;

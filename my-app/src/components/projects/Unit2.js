@@ -109,6 +109,7 @@ const Card = styled.div`
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+                margin-bottom: 2%;
             }
         }
         a {
@@ -129,7 +130,8 @@ const Card = styled.div`
                 margin-top: 5%;
             }
             @media all and (max-width: 800px){
-                padding-top: 2%;
+                padding-top: 5%;
+                padding-bottom: 5%;
                 width: 80%;
             }
         }
@@ -175,6 +177,7 @@ const Card = styled.div`
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+                margin-bottom: 8%;
             }
         }
         a {
@@ -194,9 +197,9 @@ const Card = styled.div`
                 width: 75%;
             }
             @media all and (max-width: 800px){
-                padding-top: 1.25%;
+                padding-top: 5%;
+                padding-bottom: 5%;
                 width: 80%;
-                margin-top: 2%;
             }
         }
     `;
@@ -241,6 +244,7 @@ const Card = styled.div`
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+                margin-bottom: 8%;
             }
         }
         a {
@@ -260,7 +264,8 @@ const Card = styled.div`
                 width: 80%;
             }
             @media all and (max-width: 800px){
-                padding-top: 2%;
+                padding-top: 5%;
+                padding-bottom: 5%;
                 width: 80%;
                 margin-bottom: 5%;
             }
