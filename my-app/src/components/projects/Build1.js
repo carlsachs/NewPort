@@ -22,6 +22,7 @@ import styled from "styled-components";
         @media all and (max-width: 800px){
             padding-right: 3%;
             padding-left: 3%;
+            width: 74%;
         }
         a {
             margin: 0 auto;
