@@ -79,6 +79,7 @@ import styled from "styled-components";
         @media all and (max-width: 800px){
             width: 90%;
             height: 125px;
+            margin-bottom: .5%;
         }
         h3 {
             margin: 0 auto;
@@ -86,6 +87,10 @@ import styled from "styled-components";
             margin-bottom: 12%;
             @media all and (max-width:1280px){
                 text-align: center;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 6.5%;
             }
         }
         img {
@@ -110,6 +115,10 @@ import styled from "styled-components";
             border-radius: 5%;
             :hover {
                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            @media all and (max-width: 800px){
+                padding-bottom: 5%;
+                width: 75%;
             }
         }
     `;
@@ -137,6 +146,10 @@ import styled from "styled-components";
             @media all and (max-width:1280px){
                 text-align: center;
             }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 12%;
+            }
         }
         img {
             height: 150px;
@@ -163,6 +176,11 @@ import styled from "styled-components";
             }
             @media all and (max-width:1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                padding-bottom: 4%;
+                padding-top: 6%;
+                margin-bottom: .5%;
             }
         }
 `;
@@ -180,7 +198,7 @@ import styled from "styled-components";
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media all and (max-width: 800px){
             width: 90%;
-            height: 125%;
+            height: 125px;
             margin: 0 auto;
             margin-bottom: 2%;
         }
@@ -191,6 +209,10 @@ import styled from "styled-components";
             @media all and (max-width:1280px){
                 margin-top: 18%;
                 margin-bottom: 16.25%;
+            }
+            @media all and (max-width: 800px){
+                margin-top: 6.5%;
+                margin-bottom: 12%;
             }
         }
         img {
@@ -218,6 +240,10 @@ import styled from "styled-components";
             }
             @media all and (max-width:1280px){
                 width: 80%;
+            }
+            @media all and (max-width: 800px){
+                padding-top: 5%;
+                padding-bottom: 5%;
             }
         }
     `;
