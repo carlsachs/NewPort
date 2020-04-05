@@ -16,14 +16,19 @@ import Fade from "react-reveal/Fade";
 
 //STYLED COMPONENTS
 
+const Wrap = styled.div`
+    border: 1px solid red;
+`;
+
 const Top = styled.div`
     display: flex;
     width: 100%;
+    border: 1px solid black;
 `;
 
 const TopSec = styled.div`
+border: 1px solid black;
     @media all and (max-width: 500px){
-        margin-left: 25%;
         margin-top: 15%;
         text-align: center;
     }
@@ -39,8 +44,12 @@ const TopSec = styled.div`
 `;
 
 const MiddleSec = styled.div`
+border: 1px solid black;
     width: 100%;
     margin-left: 13%;
+    @media all and (max-width: 500px){
+        margin-left:0%;
+    }
     h2 {
         text-align: center;
         margin-top: 2%;
@@ -53,7 +62,7 @@ const MiddleSec = styled.div`
         }
         @media all and (max-width: 500px){
             margin: 0 auto;
-            margin-top: 5%;
+            margin-top: 7%;
         }
     }
     p {
@@ -72,6 +81,7 @@ const MiddleSec = styled.div`
 `;
 
 const Title = styled.div`
+border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-top: 8%;
@@ -84,6 +94,7 @@ const Title = styled.div`
 `;
 
 const Picture = styled.div`
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-top: 3%;
@@ -96,13 +107,12 @@ const Picture = styled.div`
     @media all and (max-width: 800px){
         margin-top: 5%;
     }
+    @media all and (max-width: 500px){
+        
+    }
 `;
 
 const Skills = styled.div`
-    @media all and (max-width: 500px){
-        margin-left: 13%;
-        width: 100%;
-    }
     h2 {
         text-align: center;
         margin-top: 2%;
@@ -123,14 +133,17 @@ const Skills = styled.div`
 `;
 
 const PicLeft = styled.div`
-    width: 500px;
-    display: flex;
-    justify-content: center;
+@media all and (max-width: 500px){
+    display: none;
+}
 `;
 
 const PicMiddle = styled.div`
     @media all and (max-width: 800px){
         display: none;
+    }
+    @media all and (max-width: 500px){
+        display: flex;
     }
 `;
 
@@ -142,7 +155,7 @@ const PicRight = styled.div`
 
 const AboutMe = () => {
     return (
-        <div>
+        <Wrap>
             <Top>
                 <Nav />
             </Top>
@@ -174,7 +187,7 @@ const AboutMe = () => {
             <div>
                 <Footer />
             </div>
-        </div>
+        </Wrap>
     )
 
 }

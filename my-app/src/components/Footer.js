@@ -19,9 +19,6 @@ const Wrap = styled.div`
     @media all and (max-width: 800px){
         margin-top:14%;
     }
-    @media all and (max-width: 500px){
-        margin-left: 13%;
-    }
 `;
 
 const StyledLink = styled(Link)`
