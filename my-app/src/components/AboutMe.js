@@ -17,7 +17,7 @@ import Fade from "react-reveal/Fade";
 //STYLED COMPONENTS
 
 const Wrap = styled.div`
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         font-size: .75rem;
     }
 `;
@@ -32,7 +32,7 @@ const TopSec = styled.div`
         margin-top: 15%;
         text-align: center;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         margin-top: 32%;
     }
     a {
@@ -43,7 +43,7 @@ const TopSec = styled.div`
         @media all and (max-width: 500px){
             margin-top: 7%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             margin-bottom: 7.5%;
         }
     }
@@ -94,7 +94,7 @@ const Title = styled.div`
         margin-top: 12%;
         margin-bottom: 4%;
     }
-    @media all and (max-width: 360px) {
+    @media all and (max-width: 375px) {
         font-size: 1.75rem;
     }
 `;
@@ -150,7 +150,7 @@ const PicMiddle = styled.div`
     @media all and (max-width: 500px){
         display: flex;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         img {
             width: 100%;
         }

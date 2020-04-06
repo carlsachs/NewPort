@@ -25,7 +25,7 @@ const Cont = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         flex-flow: row-reverse wrap;
     }
 `;
@@ -42,7 +42,7 @@ const Title = styled.h1`
     @media all and (max-width: 500px){
         margin-top: 30%;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         font-size: 1.75rem;
         margin-top: 40%;
         margin-bottom: 10%;
@@ -76,7 +76,7 @@ const Middle = styled.div`
         margin-top: 15%;
         margin-bottom: 10%;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         margin-left: 25%;
         margin-top: 10%;
     }

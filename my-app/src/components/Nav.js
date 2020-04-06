@@ -28,7 +28,7 @@ export default function Nav () {
             width: 45%;
             padding-bottom: 2%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
