@@ -22,6 +22,9 @@ const Wrap = styled.div`
 
 `;
 
+//comment
+
+
 const StyledLink = styled(Link)`
     text-decoration: none;
     margin-top: .75%;
