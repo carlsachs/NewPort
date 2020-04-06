@@ -94,6 +94,9 @@ const Title = styled.div`
         margin-top: 12%;
         margin-bottom: 4%;
     }
+    @media all and (max-width: 360px) {
+        font-size: 1.75rem;
+    }
 `;
 
 const Picture = styled.div`

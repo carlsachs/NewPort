@@ -42,6 +42,7 @@ const Title = styled.div`
     }
     @media all and (max-width: 360px){
         margin-top: 20%;
+        font-size: 1rem;
     }
 `;
 
@@ -51,7 +52,7 @@ const Lambda = styled.div`
     text-align: center;
     margin-top:3%;
     color: #1B286C;
-    h3 {
+    h2 {
         padding-right: 10%;
         padding-left: 10%;
         font-size: 1rem;
@@ -79,6 +80,9 @@ const ProTitles = styled.div`
     color: #1B286C;
     @media all and (max-width: 800px){
         margin-bottom: 4%;
+    }
+    @media all and (max-width: 360px){
+        font-size: .75rem;
     }
 `;
 
@@ -138,6 +142,9 @@ const Desc2 = styled.div`
         padding-right: 8%;
         text-align: center;
     }
+    @media all and (max-width: 360px){
+        font-size: .75rem;
+    }
 `;
 
 const Mod1 = styled.div`
@@ -173,7 +180,9 @@ const Projects = () => {
             </TopWrap>
             <BottomWrap>
                 <ProTitles>
-                    <h3>In order from day one, cascading to present (I left out backend because its hard to show progress).  Keep in mind, we had about 5 hours after lecture for each individual assignment, and 3 hours for sprint challenges.</h3>
+                    <Fade right>
+                        <h3>In order from day one, cascading to present (I left out backend because its hard to show progress).  Keep in mind, we had about 5 hours after lecture for each individual assignment, and 3 hours for sprint challenges.</h3>
+                    </Fade>    
                 </ProTitles>
                 <UnitOne>
                     <Fade bottom>
