@@ -30,6 +30,7 @@ const Card = styled.div`
         margin-top: 2%;
         @media all and (max-width: 800px){
             text-align: center;
+            margin-top: 3%;
         }
     `;
 
