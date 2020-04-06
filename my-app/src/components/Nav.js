@@ -22,7 +22,7 @@ export default function Nav () {
             width: 17%;
         }
         @media all and (max-width: 800px){
-           width: 24%;
+           width: 50%;
         }
         @media all and (max-width: 500px){
             width: 45%;

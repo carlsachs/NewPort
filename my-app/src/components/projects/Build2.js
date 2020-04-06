@@ -21,6 +21,9 @@ import styled from "styled-components";
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
+        @media all and (max-width: 360px){
+            padding-bottom: 3%;
+        }
         a {
             margin: 0 auto;
             margin-bottom: 3%;
@@ -47,12 +50,20 @@ import styled from "styled-components";
             @media all and (max-width: 500px){
                 padding-top: 2.75%;
             }
+            @media all and (max-width: 360px){
+                width: 80%;
+                font-size: 1rem;
+                padding-top: 9%;
+            }
         }
         h2 {
             margin: 0 auto;
             margin-top: 2%;
             @media all and (max-width: 800px){
                 margin-top: 4%;
+            }
+            @media all and (max-width: 360px){
+                font-size: 1rem;
             }
         }
         h3 {
@@ -62,6 +73,9 @@ import styled from "styled-components";
             @media all and (max-width: 800px){
                 text-align: center;
                 margin-top: 4%;
+            }
+            @media all and (max-width: 360px){
+                font-size: .75rem;
             }
         }
         img {
@@ -81,6 +95,9 @@ import styled from "styled-components";
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 360px){
+            font-size: 1.25rem;
+        }
     `;
 
     const StarDiv = styled.div`
@@ -97,6 +114,10 @@ import styled from "styled-components";
         }
         @media all and (max-width: 500px){
             margin-left: 5%;
+        }
+        @media all and (max-width: 360px){
+            width: 20%;
+            margin-left: 13.5%;
         }
     `;
 

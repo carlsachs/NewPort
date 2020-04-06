@@ -21,6 +21,9 @@ import styled from "styled-components";
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
+        @media all and (max-width: 360px){
+            padding-bottom: 3%;
+        }
     `;
 
     const Title = styled.h1`
@@ -32,6 +35,9 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             text-align: center;
             margin-top: 3%;
+        }
+        @media all and (max-width: 360px){
+            font-size: 1.25rem;
         }
     `;
 
@@ -45,6 +51,9 @@ import styled from "styled-components";
         margin-top: 2%;
         @media all and (max-width: 500px){
             flex-direction: column;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
 
@@ -63,6 +72,9 @@ import styled from "styled-components";
 
     const List = styled.div`
         margin-left: 2%;
+        @media all and (max-width: 360px){
+            margin-left: 8%;
+        }
     `;
 
     const HighlightTitle = styled.div`
@@ -73,6 +85,10 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-left: 25%;
         }
+        @media all and (max-width: 360px){
+            margin-left: 25%;
+            font-size: .75rem;
+        }
     `;
 
     const High = styled.div`
@@ -82,6 +98,9 @@ import styled from "styled-components";
         justify-content: space-between;
         @media all and (max-width: 800px){
             flex-flow: column nowrap;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
    
@@ -100,6 +119,9 @@ import styled from "styled-components";
             height: 125px;
             margin-bottom: .5%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -110,6 +132,9 @@ import styled from "styled-components";
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
                 margin-bottom: 6.5%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 4%;
             }
         }
         img {
@@ -158,6 +183,9 @@ import styled from "styled-components";
             width: 90%;
             height: 125px;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -171,6 +199,9 @@ import styled from "styled-components";
             }
             @media all and (max-width: 500px){
                 margin-bottom: 10.75%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 5%;
             }
         }
         img {
@@ -224,6 +255,9 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-bottom: 2%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -235,6 +269,9 @@ import styled from "styled-components";
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
                 margin-bottom: 12%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 8%;
             }
         }
         img {
@@ -296,11 +333,11 @@ const Unit5 = () => {
                 <List>
                     <ul>
                         <li>React.js</li>
-                        <li>Components in React</li>
+                        <li>Components</li>
                         <li>State</li>
                         <li>Props</li>
                         <li>Hooks</li>
-                        <li>Bootstrapping a UI</li>
+                        <li>Bootstrapping</li>
                     </ul>
                 </List>
             </Focus>

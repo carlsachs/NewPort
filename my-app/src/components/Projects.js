@@ -118,7 +118,7 @@ const Desc = styled.div`
         height: 280px;
     }
     @media all and (max-width: 800px){
-        top: 39.5%;
+        top: 33%;
         width: 65%;
         left: 25%;
     }

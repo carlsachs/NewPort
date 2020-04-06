@@ -46,7 +46,6 @@ border: 1px solid black;
 const MiddleSec = styled.div`
 border: 1px solid black;
     width: 100%;
-    margin-left: 13%;
     @media all and (max-width: 500px){
         margin-left:0%;
     }
