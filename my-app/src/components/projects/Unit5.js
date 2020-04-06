@@ -29,6 +29,10 @@ import styled from "styled-components";
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 500px){
+            text-align: center;
+            margin-top: 3%;
+        }
     `;
 
     const Focus = styled.div`
@@ -39,21 +43,36 @@ import styled from "styled-components";
         color: #303D84;
         margin-left: 5%;
         margin-top: 2%;
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 60%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin-left: 32.5%;
+        margin-top: 5%;
+    }
+        h3 {
+            margin-top: 60%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+        margin-left: 2%;
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -149,6 +168,9 @@ import styled from "styled-components";
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
                 margin-bottom: 12%;
+            }
+            @media all and (max-width: 500px){
+                margin-bottom: 10.75%;
             }
         }
         img {
