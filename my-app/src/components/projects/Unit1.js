@@ -42,15 +42,27 @@ const Card = styled.div`
         width: 100%;
         color: #303D84;
         margin-top: 2%;
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 30%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+        h3 {
+            margin-top: 30%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+        margin: 0 auto;
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;

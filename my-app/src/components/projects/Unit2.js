@@ -219,6 +219,9 @@ const Card = styled.div`
                 padding-bottom: 5%;
                 width: 80%;
             }
+            @media all and (max-width: 500px){
+                width: 75%;
+            }
         }
     `;
 
