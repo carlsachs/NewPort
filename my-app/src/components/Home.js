@@ -59,6 +59,11 @@ const Title = styled.div`
       width: 60%;
       left: 17.5%;
     }
+    @media all and (max-width: 360px){
+      width: 80%;
+      left: 6%;
+      top: 20%;
+    }
 `;
 
 const ButtonWrap = styled.div`
@@ -103,6 +108,10 @@ const Button1 = styled.div`
     @media all and (max-width: 500px){
       top: 165%;
     }
+    @media all and (max-width: 360px){
+      top: 180%;
+      left: 6%;
+    }
 `;
 
 const Button2 = styled.div`
@@ -114,6 +123,10 @@ const Button2 = styled.div`
   }
   @media all and (max-width: 500px){
     top: 165%;
+  }
+  @media all and (max-width: 360px){
+    top: 180%;
+    right:11%;
   }
 `;
 
