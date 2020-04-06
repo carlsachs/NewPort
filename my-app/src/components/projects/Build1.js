@@ -24,6 +24,9 @@ import styled from "styled-components";
             padding-left: 3%;
             width: 74%;
         }
+        @media all and (max-width: 500px){
+            margin-bottom: 3%;
+        }
         a {
             margin: 0 auto;
             margin-bottom: 3%;
@@ -41,10 +44,17 @@ import styled from "styled-components";
                 width: 25%;
                 padding-top: 2%;
             }
+            @media all and (max-width: 500px){
+                padding-top: 3.5%;
+            }
         }
         h2 {
             margin: 0 auto;
             margin-top: 2%;
+            @media all and (max-width: 500px){
+                margin-top: 3%;
+                margin-bottom: 3%;
+            }
         }
         h3 {
             margin: 0 auto;
@@ -52,6 +62,10 @@ import styled from "styled-components";
             margin-bottom: 2%;
             @media all and (max-width: 800px){
                 text-align: center;
+            }
+            @media all and (max-width: 500px){
+                margin-top: 3%;
+                margin-bottom: 7%;
             }
         }
     `;
@@ -64,6 +78,10 @@ import styled from "styled-components";
         margin-top: 2%;
         @media all and (max-width: 800px){
             text-align: center;
+        }
+        @media all and (max-width: 500px){
+            margin-top: 3%;
+            margin-bottom: 3%;
         }
     `;
 
