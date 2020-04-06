@@ -28,6 +28,9 @@ export default function Nav () {
             width: 45%;
             padding-bottom: 2%;
         }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
+        }
     `;
     
     const NavWrap = styled.div`

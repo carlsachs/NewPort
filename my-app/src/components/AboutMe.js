@@ -17,20 +17,23 @@ import Fade from "react-reveal/Fade";
 //STYLED COMPONENTS
 
 const Wrap = styled.div`
-    border: 1px solid red;
+    @media all and (max-width: 360px){
+        font-size: .75rem;
+    }
 `;
 
 const Top = styled.div`
     display: flex;
     width: 100%;
-    border: 1px solid black;
 `;
 
 const TopSec = styled.div`
-border: 1px solid black;
     @media all and (max-width: 500px){
         margin-top: 15%;
         text-align: center;
+    }
+    @media all and (max-width: 360px){
+        margin-top: 32%;
     }
     a {
         display: flex;
@@ -40,11 +43,13 @@ border: 1px solid black;
         @media all and (max-width: 500px){
             margin-top: 7%;
         }
+        @media all and (max-width: 360px){
+            margin-bottom: 7.5%;
+        }
     }
 `;
 
 const MiddleSec = styled.div`
-border: 1px solid black;
     width: 100%;
     @media all and (max-width: 500px){
         margin-left:0%;
@@ -80,7 +85,6 @@ border: 1px solid black;
 `;
 
 const Title = styled.div`
-border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-top: 8%;
@@ -90,10 +94,12 @@ border: 1px solid black;
         margin-top: 12%;
         margin-bottom: 4%;
     }
+    @media all and (max-width: 360px) {
+        font-size: 1.75rem;
+    }
 `;
 
 const Picture = styled.div`
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-top: 3%;
@@ -143,6 +149,11 @@ const PicMiddle = styled.div`
     }
     @media all and (max-width: 500px){
         display: flex;
+    }
+    @media all and (max-width: 360px){
+        img {
+            width: 100%;
+        }
     }
 `;
 
