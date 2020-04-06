@@ -27,6 +27,9 @@ const Whole = styled.div`
 
 const TopWrap = styled.div`
     width: 100%;
+    @media all and (max-width: 500px){
+        margin-top: 20%;
+    }
 `;
 
 const Title = styled.div`
@@ -119,6 +122,25 @@ const Desc = styled.div`
         width: 65%;
         left: 25%;
     }
+    @media all and (max-width: 500px){
+        display: none;
+    }
+`;
+
+const Desc2 = styled.div`
+    display: none;
+    @media all and (max-width: 500px){
+        display: flex;
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: center;
+    }
+`;
+
+const Mod1 = styled.div`
+    @media all and (max-width: 500px){
+        display: none;
+    }
 `;
 
 const Projects = () => {
@@ -131,15 +153,20 @@ const Projects = () => {
                 </Title>
                 <Lambda>
                     <h2>How does Lambda School Work?</h2>
-                    <div>
-                    <img src={Module} alt="module breakdown"/>
-                    </div>
+                    <Mod1>
+                        <img src={Module} alt="module breakdown"/>
+                    </Mod1>
                 </Lambda>
                 <Desc>
                     <Fade right>
-                    <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wise) was self-taught.</p>
+                        <p>Lambda School teaches via zoom each day.  Each module was filled with 3 units, and a build week, where a team and myself would create a project from scratch in 4 days.  Each unit (one week) was filled with 4 days of learning, including a daily project and smaller group classes, and one day of testing.  The way they teach is very head-on and very intense.  The most important thing im taking away from Lambda School is the ability to learn new concepts quickly, and the ability to implement what I'm learning into my projects.  Such as this very portfolio page.  Most of what this was built with (library-wise) was self-taught.</p>
                     </Fade>
                 </Desc>
+                <Desc2>
+                    <Fade left>
+                        <p>My time at Lambda was extremely packed with information.  Each module had 3 units, and a build week, where we got assigned a team and our respective role was what we had learned that month.  Each unit was filled with 4 lessons, or an information and project-packed Monday-Thursday, and a sprint (a 3-hour test on Friday).</p>
+                    </Fade>
+                </Desc2>
             </TopWrap>
             <BottomWrap>
                 <ProTitles>

@@ -35,18 +35,28 @@ export default function Nav () {
         width:95%;
         height: 40px;
         margin-top: 2%;
+        @media all and (max-width: 500px){
+            flex-flow: column nowrap;
+            height: 100px;
+        }
     `;
 
     const Left = styled.div`
         display: flex;
         justify-content: space-evenly;
         width: 50%;
+        @media all and (max-width: 500px){
+            width: 100%;
+        }
     `;
 
     const Right = styled.div`
         display: flex;
         justify-content: space-evenly;
         width: 50%;
+        @media all and (max-width: 500px){
+            width: 100%;
+        }
     `;
 
     return (
