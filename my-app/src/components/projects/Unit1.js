@@ -19,7 +19,7 @@ const Card = styled.div`
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             padding-bottom: 3%;
         }
     `;
@@ -36,7 +36,7 @@ const Card = styled.div`
         @media all and (max-width: 500px){
             margin-top: 3%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: 1.25rem;
         }
     `;
@@ -51,7 +51,7 @@ const Card = styled.div`
         @media all and (max-width: 500px){
             flex-direction: column;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
@@ -81,7 +81,7 @@ const Card = styled.div`
         @media all and (max-width: 500px){
             margin-left: 25%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             margin-left: 25%;
             font-size: .75rem;
         }
@@ -95,7 +95,7 @@ const Card = styled.div`
         @media all and (max-width: 800px){
             flex-flow: column wrap;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
@@ -116,7 +116,7 @@ const Card = styled.div`
             margin: 0 auto;
             margin-bottom: 2%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             height: 90px;
         }
         h3 {
@@ -126,7 +126,7 @@ const Card = styled.div`
             @media all and (max-width: 800px){
                 margin-top: 10%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 margin-bottom: 14%;
             }
         }
@@ -174,7 +174,7 @@ const Card = styled.div`
             margin: 0 auto;
             margin-bottom: 2%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             height: 90px;
         }
         h3 {
@@ -185,7 +185,7 @@ const Card = styled.div`
                 margin-top: 8.5%;
                 margin-bottom: 8%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 margin-bottom: 5.5%;
             }
         }

@@ -42,7 +42,7 @@ const StyledLink = styled(Link)`
         font-size: .75rem;
         margin-top: 3.75%;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         font-size: .5rem;
         margin-top: 5.5%;
     }

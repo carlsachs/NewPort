@@ -40,7 +40,7 @@ const Title = styled.div`
         margin-top 12%;
         margin-bottom: 4%;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         margin-top: 20%;
         font-size: 1rem;
     }
@@ -81,7 +81,7 @@ const ProTitles = styled.div`
     @media all and (max-width: 800px){
         margin-bottom: 4%;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         font-size: .75rem;
     }
 `;
@@ -142,7 +142,7 @@ const Desc2 = styled.div`
         padding-right: 8%;
         text-align: center;
     }
-    @media all and (max-width: 360px){
+    @media all and (max-width: 375px){
         font-size: .75rem;
     }
 `;

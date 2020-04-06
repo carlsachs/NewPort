@@ -21,7 +21,7 @@ import styled from "styled-components";
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             padding-bottom: 3%;
         }
     `;
@@ -38,7 +38,7 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-top: 3%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: 1.25rem;
         }
     `;
@@ -57,7 +57,7 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             flex-direction: column;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
@@ -76,7 +76,7 @@ import styled from "styled-components";
         padding-left: 3%;
         padding-right: 1%;
         margin-left: 5%;
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             margin-right: 12%;
         }
     `;
@@ -89,7 +89,7 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-left: 25%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
@@ -102,7 +102,7 @@ import styled from "styled-components";
         @media all and (max-width: 800px){
             flex-flow: column nowrap;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: .75rem;
         }
     `;
@@ -122,7 +122,7 @@ import styled from "styled-components";
             height: 125px;
             margin-bottom: .4%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             height: 90px;
         }
         h3 {
@@ -192,7 +192,7 @@ import styled from "styled-components";
             width: 90%;
             height: 125px;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             height: 90px;
         }
         h3 {
@@ -205,7 +205,7 @@ import styled from "styled-components";
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 margin-bottom: 7%;
             }
         }
@@ -263,7 +263,7 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-bottom: 2%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             height: 90px;
         }
         h3 {
@@ -280,7 +280,7 @@ import styled from "styled-components";
             @media all and (max-width: 500px){
                 margin-top: 10%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 margin-bottom: 12%;
             }
         }

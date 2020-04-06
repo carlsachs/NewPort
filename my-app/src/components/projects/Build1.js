@@ -27,7 +27,7 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-bottom: 3%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             padding-bottom: 3%;
         }
         a {
@@ -50,7 +50,7 @@ import styled from "styled-components";
             @media all and (max-width: 500px){
                 padding-top: 3.5%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 padding-left: 5%;
                 padding-right: 5%;
             }
@@ -58,7 +58,7 @@ import styled from "styled-components";
         h2 {
             margin: 0 auto;
             margin-top: 2%;
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 font-size: 1rem;
             }
         }
@@ -73,7 +73,7 @@ import styled from "styled-components";
                 margin-top: 3%;
                 margin-bottom: 7%;
             }
-            @media all and (max-width: 360px){
+            @media all and (max-width: 375px){
                 font-size: .75rem;
             }
         }
@@ -92,7 +92,7 @@ import styled from "styled-components";
             margin-top: 3%;
             margin-bottom: 3%;
         }
-        @media all and (max-width: 360px){
+        @media all and (max-width: 375px){
             font-size: 1.25rem;
         }
     `;
