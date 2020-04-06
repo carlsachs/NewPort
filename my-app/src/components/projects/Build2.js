@@ -44,6 +44,9 @@ import styled from "styled-components";
                 padding-left: 2%;
                 padding-right: 2%;
             }
+            @media all and (max-width: 500px){
+                padding-top: 2.75%;
+            }
         }
         h2 {
             margin: 0 auto;
@@ -91,6 +94,9 @@ import styled from "styled-components";
         }
         @media all and (max-width: 800px){
             margin-left: 12.5%;
+        }
+        @media all and (max-width: 500px){
+            margin-left: 5%;
         }
     `;
 

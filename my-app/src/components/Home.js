@@ -55,6 +55,10 @@ const Title = styled.div`
       margin-top: 35%;
       left: 28%;
     }
+    @media all and (max-width: 500px){
+      width: 60%;
+      left: 17.5%;
+    }
 `;
 
 const ButtonWrap = styled.div`
@@ -93,12 +97,18 @@ const Button1 = styled.div`
     position: absolute;
     left: 6%;
     top: 65%;
+    @media all and (max-width: 500px){
+      top: 165%;
+    }
 `;
 
 const Button2 = styled.div`
   position: absolute;
   right: 6%;
   top: 65%;
+  @media all and (max-width: 500px){
+    top: 165%;
+  }
 `;
 
 //PARTICLES JS ANIMATION

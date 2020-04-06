@@ -31,6 +31,9 @@ const Card = styled.div`
         @media all and (max-width: 800px){
             text-align: center;
         }
+        @media all and (max-width: 500px){
+            margin-top: 3%;
+        }
     `;
 
     const Focus = styled.div`
@@ -44,21 +47,39 @@ const Card = styled.div`
         @media all and (max-width:1280px){
             margin-left: 3.5%;
         }
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 50%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin-left: 32%;
+    }
+        h3 {
+            margin-top: 50%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+    @media all and (max-width: 500px){
+        margin-left: 5%;
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -154,6 +175,9 @@ const Card = styled.div`
                 margin-top: 4%;
                 margin-bottom: 7%;
             }
+            @media all and (max-width: 500px){
+                margin-bottom: 3%;
+            }
         }
         img {
             height: 150px;
@@ -188,6 +212,9 @@ const Card = styled.div`
                 padding-top: 3%;
                 padding-bottom: 3%;
             }
+            @media all and (max-width: 500px){
+                width: 50%;
+            }
         }
     `;
 
@@ -211,7 +238,7 @@ const Unit8 = () => {
                 </FocTitle>
                 <List>
                     <ul>
-                        <li>The Reducer Pattern</li>
+                        <li>Reducer Pattern</li>
                         <li>Redux</li>
                         <li>Async Redux</li>
                         <li>Actions/Action Creators</li>

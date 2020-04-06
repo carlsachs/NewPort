@@ -30,6 +30,7 @@ const Card = styled.div`
         margin-top: 2%;
         @media all and (max-width: 800px){
             text-align: center;
+            margin-top: 3%;
         }
     `;
 
@@ -44,21 +45,39 @@ const Card = styled.div`
         @media all and (max-width:1280px){
             margin-left: 1%;
         }
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 40%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin: 0 auto;
+    }
+        h3 {
+            margin-top: 40%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+        @media all and (max-width: 500px){
+            margin-left: 5%;
+            padding-left: 3%;
+            padding-right: 1%;   
+        }
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
