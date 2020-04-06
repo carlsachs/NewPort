@@ -31,6 +31,11 @@ const Card = styled.div`
         @media all and (max-width: 800px){
             text-align: center;
         }
+        @media all and (max-width: 500px){
+            margin-top: 3%;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
     `;
 
     const Focus = styled.div`
@@ -40,21 +45,38 @@ const Card = styled.div`
         width: 100%;
         color: #303D84;
         margin-top: 2%;
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 40%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+        @media all and (max-width: 500px){
+            margin: 0 auto;
+            margin-top: 5%;
+        }
+        h3 {
+            margin-top: 40%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+        @media all and (max-width: 500px){
+            margin: 0 auto;
+        }
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -142,6 +164,9 @@ const Card = styled.div`
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
                 margin-bottom: 14%;
+            }
+            @media all and (max-width: 500px){
+                margin-bottom: 11.75%;
             }
         }
         img {
