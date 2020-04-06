@@ -52,7 +52,7 @@ const Title = styled.div`
     }
     @media all and (max-width: 800px){
       width: 40%;
-      margin-top: 35%;
+      top: 30%;
       left: 28%;
     }
     @media all and (max-width: 500px){
@@ -97,6 +97,9 @@ const Button1 = styled.div`
     position: absolute;
     left: 6%;
     top: 65%;
+    @media all and (max-width: 800px){
+      top: 80%;
+    }
     @media all and (max-width: 500px){
       top: 165%;
     }
@@ -106,6 +109,9 @@ const Button2 = styled.div`
   position: absolute;
   right: 6%;
   top: 65%;
+  @media all and (max-width: 800px){
+    top: 80%;
+  }
   @media all and (max-width: 500px){
     top: 165%;
   }
