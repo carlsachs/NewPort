@@ -40,6 +40,9 @@ const Title = styled.div`
         margin-top 12%;
         margin-bottom: 4%;
     }
+    @media all and (max-width: 360px){
+        margin-top: 20%;
+    }
 `;
 
 const Lambda = styled.div`
