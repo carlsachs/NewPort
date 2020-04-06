@@ -28,7 +28,6 @@ export default function Nav () {
     
     const NavWrap = styled.div`
         display:flex;
-        border: 1px solid black;
         text-align: center;
         justify-content: space-evenly;
         position: absolute;
