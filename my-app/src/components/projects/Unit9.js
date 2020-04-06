@@ -32,6 +32,9 @@ import styled from "styled-components";
         @media all and (max-width: 800px){
             text-align: center;
         }
+        @media all and (max-width: 500px){
+            margin-top: 3%;
+        }
     `;
 
     const Focus = styled.div`
@@ -45,21 +48,35 @@ import styled from "styled-components";
         @media all and (max-width:1280px){
             margin-left: 3.5%;
         }
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 55%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin-left: 32.5%;
+    }
+        h3 {
+            margin-top: 55%;
+            margin-top: 5%;
+        }
+    `;
+
+    const List = styled.div`
+        padding-left: 3%;
+        padding-right: 1%;
+        margin-left: 5%;
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -229,6 +246,9 @@ import styled from "styled-components";
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+            }
+            @media all and (max-width: 500px){
+                margin-top: 10%;
             }
         }
         img {
