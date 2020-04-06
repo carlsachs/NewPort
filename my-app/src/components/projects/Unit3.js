@@ -29,6 +29,10 @@ const Card = styled.div`
         height: 25%;
         margin: 0 auto;
         margin-top: 2%;
+        @media all and (max-width: 500px){
+            text-align: center;
+            margin-top: 3%;
+        }
     `;
 
     const Focus = styled.div`
@@ -43,11 +47,22 @@ const Card = styled.div`
             width: 80%;
             margin-left: 15%;
         }
+        @media all and (max-width: 500px){
+            flex-direction: column;
+        }
     `;
 
     const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin: 0 auto;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
         h3 {
             margin-top: 60%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
         }
     `;
 
@@ -58,6 +73,9 @@ const Card = styled.div`
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -97,6 +115,9 @@ const Card = styled.div`
                 margin-top: 6.5%;
                 margin-bottom: 4%;
             }
+            @media all and (max-width: 500px){
+                margin-top: 1.5%;
+            }
         }
         img {
             height: 150px;
@@ -126,6 +147,11 @@ const Card = styled.div`
                 padding-top: 2%;
                 padding-bottom: 2%;
                 width: 45%;
+            }
+            @media all and (max-width: 500px){
+                width: 48%;
+                padding-top: 3%;
+                padding-bottom: 3%;
             }
         }
     `;
@@ -190,6 +216,7 @@ const Card = styled.div`
                 padding-bottom: 4%;
                 padding-top: 4%;
                 width: 60%;
+                margin-top: 5%;
             }
         }
 `;
