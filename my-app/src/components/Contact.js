@@ -17,8 +17,6 @@ const Wrap = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    h1 {
-    }
 `;
 
 const Cont = styled.div`
@@ -27,6 +25,9 @@ const Cont = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    @media all and (max-width: 360px){
+        flex-flow: row-reverse wrap;
+    }
 `;
 
 const Title = styled.h1`
@@ -40,6 +41,11 @@ const Title = styled.h1`
     }
     @media all and (max-width: 500px){
         margin-top: 30%;
+    }
+    @media all and (max-width: 360px){
+        font-size: 1.75rem;
+        margin-top: 40%;
+        margin-bottom: 10%;
     }
 `;
 
@@ -69,6 +75,10 @@ const Middle = styled.div`
         text-align: center;
         margin-top: 15%;
         margin-bottom: 10%;
+    }
+    @media all and (max-width: 360px){
+        margin-left: 25%;
+        margin-top: 10%;
     }
 `;
 
@@ -100,6 +110,9 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
+            <div>
+                <Footer />
+            </div>
         </Wrap>
     )
 }
