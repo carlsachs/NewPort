@@ -21,6 +21,9 @@ import styled from "styled-components";
         background: rgb(53,149,255);
         background: radial-gradient(circle, rgba(53,149,255,0.15449929971988796) 0%, rgba(240,244,255,0.6587009803921569) 100%);
         box-shadow: 0 14px 28px rgba(11,22,84,0.25), 0 10px 10px rgba(11, 22, 84,0.22);
+        @media all and (max-width: 360px){
+            padding-bottom: 3%;
+        }
     `;
 
     const Title = styled.h1`
@@ -36,6 +39,9 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-top: 3%;
         }
+        @media all and (max-width: 360px){
+            font-size: 1.25rem;
+        }
     `;
 
     const Focus = styled.div`
@@ -48,6 +54,9 @@ import styled from "styled-components";
         margin-top: 2%;
         @media all and (max-width: 500px){
             flex-direction: column;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
 
@@ -64,7 +73,10 @@ import styled from "styled-components";
     `;
 
     const List = styled.div`
-    margin-left: 11%;
+        margin-left: 11%;
+        @media all and (max-width: 360px){
+            margin-left: 6.5%;
+        }
     `;
 
     const HighlightTitle = styled.div`
@@ -75,6 +87,10 @@ import styled from "styled-components";
         @media all and (max-width: 500px){
             margin-left: 25%;
         }
+        @media all and (max-width: 360px){
+            margin-left: 25%;
+            font-size: .75rem;
+        }
     `;
 
     const High = styled.div`
@@ -84,6 +100,9 @@ import styled from "styled-components";
         justify-content: space-between;
         @media all and (max-width: 800px){
             flex-flow: column nowrap;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
    
@@ -102,6 +121,9 @@ import styled from "styled-components";
             height: 125px;
             margin-bottom: .5%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -112,6 +134,9 @@ import styled from "styled-components";
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 12%;
             }
         }
         img {
@@ -143,6 +168,9 @@ import styled from "styled-components";
                 width: 90%;
                 padding: 10px;
             }
+            @media all and (max-width: 360px){
+                width: 85%;
+            }
         }
     `;
 
@@ -162,6 +190,9 @@ import styled from "styled-components";
             width: 90%;
             height: 125px;
             margin-bottom: 2%;
+        }
+        @media all and (max-width: 360px){
+            height: 90px;
         }
         h3 {
             margin: 0 auto;
@@ -229,6 +260,9 @@ import styled from "styled-components";
             margin: 0 auto;
             margin-bottom: 2%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -238,6 +272,9 @@ import styled from "styled-components";
             }
             @media all and (max-width: 800px){
                 margin-top: 6.5%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 10.75%;
             }
         }
         img {
