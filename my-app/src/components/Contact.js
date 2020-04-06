@@ -38,6 +38,9 @@ const Title = styled.h1`
         margin-top: 12%;
         margin-bottom: 4%;
     }
+    @media all and (max-width: 500px){
+        margin-top: 30%;
+    }
 `;
 
 const Middle = styled.div`
@@ -50,6 +53,10 @@ const Middle = styled.div`
     }
     @media all and (max-width: 800px){
         margin-left: 39%;
+    }
+    @media all and (max-width: 500px){
+        margin-left: 33%;
+        margin-top: 8%;
     }
     form {
         display: flex;
@@ -93,9 +100,6 @@ const Contact = () => {
                     <input type="submit" value="Send" />
                 </form>
             </Middle>
-            <div>
-                <Footer />
-            </div>
         </Wrap>
     )
 }
