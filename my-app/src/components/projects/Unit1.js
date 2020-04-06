@@ -33,6 +33,9 @@ const Card = styled.div`
         @media all and (max-width: 500px){
             margin-top: 3%;
         }
+        @media all and (max-width: 360px){
+            font-size: 1.25rem;
+        }
     `;
 
     const Focus = styled.div`
@@ -44,6 +47,9 @@ const Card = styled.div`
         margin-top: 2%;
         @media all and (max-width: 500px){
             flex-direction: column;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
 
@@ -72,6 +78,10 @@ const Card = styled.div`
         @media all and (max-width: 500px){
             margin-left: 25%;
         }
+        @media all and (max-width: 360px){
+            margin-left: 25%;
+            font-size: .75rem;
+        }
     `;
 
     const High = styled.div`
@@ -81,6 +91,9 @@ const Card = styled.div`
         justify-content: space-between;
         @media all and (max-width: 800px){
             flex-flow: column wrap;
+        }
+        @media all and (max-width: 360px){
+            font-size: .75rem;
         }
     `;
 
@@ -100,12 +113,18 @@ const Card = styled.div`
             margin: 0 auto;
             margin-bottom: 2%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 20%;
             margin-bottom:18%;
             @media all and (max-width: 800px){
                 margin-top: 10%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 14%;
             }
         }
         img {
@@ -152,6 +171,9 @@ const Card = styled.div`
             margin: 0 auto;
             margin-bottom: 2%;
         }
+        @media all and (max-width: 360px){
+            height: 90px;
+        }
         h3 {
             margin: 0 auto;
             margin-top: 12%;
@@ -159,6 +181,9 @@ const Card = styled.div`
             @media all and (max-width: 800px){
                 margin-top: 8.5%;
                 margin-bottom: 8%;
+            }
+            @media all and (max-width: 360px){
+                margin-bottom: 5.5%;
             }
         }
         img {
