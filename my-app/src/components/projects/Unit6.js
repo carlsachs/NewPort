@@ -33,6 +33,9 @@ import styled from "styled-components";
             width: 95%;
             text-align: center;
         }
+        @media all and (max-width: 500px){
+            margin-top: 3%;
+        }
     `;
 
     const Focus = styled.div`
@@ -43,21 +46,35 @@ import styled from "styled-components";
         color: #303D84;
         margin-left: 7%;
         margin-top: 2%;
-    `;
-
-    const FocTitle = styled.div`
-        h3 {
-            margin-top: 75%;
+        @media all and (max-width: 500px){
+            flex-direction: column;
         }
     `;
 
-    const List = styled.div``;
+    const FocTitle = styled.div`
+    @media all and (max-width: 500px){
+        margin-left: 31%;
+    }
+        h3 {
+            margin-top: 75%;
+            @media all and (max-width: 500px){
+                margin-top: 5%;
+            }
+        }
+    `;
+
+    const List = styled.div`
+    margin-left: 11%;
+    `;
 
     const HighlightTitle = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 1%;
         color: #303D84;
+        @media all and (max-width: 500px){
+            margin-left: 25%;
+        }
     `;
 
     const High = styled.div`
@@ -284,7 +301,8 @@ const Unit6 = () => {
                         <li>React Router</li>
                         <li>Link</li>
                         <li>Dynamic Routes</li>
-                        <li>useHistory / useParams</li>
+                        <li>useHistory</li>
+                        <li>useParams</li>
                         <li>Forms / Handlers</li>
                         <li>Custom Forms</li>
                         <li>Validation</li>
